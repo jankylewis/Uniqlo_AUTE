@@ -3,6 +3,7 @@ package com.qa.uniqlo.factory;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.BrowserType.LaunchOptions;
 import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.utilities.logs.Log;
 
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
@@ -10,17 +11,30 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class PlaywrightFactory {
+
     Playwright pw;
     Browser brs;
     BrowserContext brsContext;
     Page page;
     Properties prop;
-    CommonHandling cmhandler= new CommonHandling();
+    CommonHandling commonHandler= new CommonHandling();
+    final boolean isMac= false;
+    final boolean isWindows= false;
+    final boolean headful= commonHandler.normalizeBool(
+            prop.getProperty("headful")
+    );
+    final boolean headless= !headful;
+    static {
+
+    }
+
     public Page initBrowser(Properties prop) {
-        String browserName= cmhandler.normalizeStr(prop.getProperty("browser"));
-        boolean headlessMode= cmhandler.normalizeBool(prop.getProperty("headless"));
-        String baseUrl= cmhandler.normalizeStr(prop.getProperty("baseUrl"));
-        System.out.println("THE DESIRED BROWSER= "+ browserName);
+        String browserName= commonHandler.normalizeStr(prop.getProperty("browser"));
+//        boolean headlessMode;
+        boolean headfulMode;
+        boolean headlessMode= commonHandler.normalizeBool(prop.getProperty("headless"));
+        String baseUrl= commonHandler.normalizeStr(prop.getProperty("baseUrl"));
+        Log.info("THE DESIGNATED BROWSER= "+ browserName);
         pw= Playwright.create();
         switch (browserName.toLowerCase()) {
             case "chromium":
@@ -36,7 +50,7 @@ public class PlaywrightFactory {
                 brs= pw.chromium().launch(new LaunchOptions().setChannel("chrome").setHeadless(headlessMode));
                 break;
             default:
-                System.out.println("PLEASE PROVIDE A CORRECT BROWSER NAME >>");
+                Log.info("PLEASE ENTER A VALID BROWSER NAME >>");
                 break;
         }
         brsContext= brs.newContext();
@@ -53,6 +67,7 @@ public class PlaywrightFactory {
         try {
 //            FileInputStream ips= new FileInputStream("./src/main/resources/config/config.properties");
             FileInputStream ips= new FileInputStream("./src/test/resources/config.properties");
+            Log.info("GOT PROPERTIES FILE >>");
             prop= new Properties();
             prop.load(ips);
         } catch (FileNotFoundException exception) {

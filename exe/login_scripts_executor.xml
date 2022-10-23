@@ -4,12 +4,12 @@
     <test verbose="2"
           preserve-order="true"
           name="/Users/vinhtran02092k/Desktop/Pet_projects/Java_Playwright/Uniqlo"
-          parallel="false">
+          parallel="false" skipfailedinvocationcounts="false">
         <groups>
 <!--            <define name="Successful">-->
 <!--                <include name="01"></include>-->
 <!--            </define>-->
-<!--            <define name="Failed">-->
+<!--         <define name="Failed">-->
 <!--                <include name="02"></include>-->
 <!--                <include name="03"></include>-->
 <!--            </define>-->
@@ -21,8 +21,8 @@
             <class name="com.qa.uniqlo.testCases.LogInTest">
             <methods>
                 <include name="logInTest_01"/>
-                <include name="logInTest_02"/>
-                <include name="logInTest_03"/>
+<!--                <include name="logInTest_02"/>-->
+<!--                <include name="logInTest_03"/>-->
             </methods>
             </class>
         </classes>

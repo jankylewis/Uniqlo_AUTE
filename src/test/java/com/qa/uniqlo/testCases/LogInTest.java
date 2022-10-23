@@ -1,11 +1,11 @@
 package com.qa.uniqlo.testCases;
 
+import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.base.AbstractTest;
 import com.qa.uniqlo.models.AccountManagement;
 import com.qa.uniqlo.utilities.logs.Log;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 public class LogInTest extends AbstractTest {
 
@@ -20,7 +20,8 @@ public class LogInTest extends AbstractTest {
     }
 
     @Test(groups = {"01"},
-            priority = 1)
+            priority = 1,
+            invocationCount = 5)
     public void logInTest_01() throws Exception {
         setUpMethod();
         /* prepare data */
@@ -33,15 +34,18 @@ public class LogInTest extends AbstractTest {
         homePage.clickOnLogInCTA();
         logInPage.verifyIfHeaderIsLogin("LOGIN");
         logInPage.doLogIn(userEmail, userPwd);
+
+//        page.waitForLoadState(LoadState.valueOf("NETWORKIDLE"));
         homePage.clickOnProfileCTA();
         myProfilePage.verifyUserEmail(userEmail);
         Log.info("EXECUTED TEST CASE LOGIN_01");
         tearDownMethod();
     }
 
-    @Test(groups = {"02"},
-            priority = 2)
-    private void logInTest_02() throws Exception {
+    @Test(groups = {"03"},
+            priority = 3)
+    @Parameters("redundantTxt")
+    private void logInTest_03(@Optional("txt") String redundantTxt) throws Exception {
         /* prepare data */
         setUpMethod();
         AccountManagement accountModel= new AccountManagement();
@@ -52,17 +56,19 @@ public class LogInTest extends AbstractTest {
         /* actions */
         homePage.clickOnLogInCTA();
         logInPage.verifyIfHeaderIsLogin("LOGIN");
-        logInPage.doLogIn(userEmail+ "txt", userPwd);
+        logInPage.doLogIn(userEmail, userPwd+ redundantTxt);
         logInPage.verifyIfErrorIsPresented();
-        Log.info("EXECUTED TEST CASE LOGIN_02");
+        Log.info("EXECUTED TEST CASE LOGIN_03");
         tearDownMethod();
     }
 
-    @Test(groups = {"03"},
-            priority = 3)
-    private void logInTest_03() throws Exception {
+    @Test(groups = {"02"},
+            priority = 2)
+    @Parameters("redundantTxt")
+    private void logInTest_02(@Optional("txt") String redundantTxt) throws Exception {
         /* prepare data */
         setUpMethod();
+        Log.info(redundantTxt);
         AccountManagement accountModel= new AccountManagement();
         accountModel.setUserEmail(prop.getProperty("userEmail"));
         accountModel.setUserPassword(prop.getProperty("userPassword"));
@@ -71,9 +77,9 @@ public class LogInTest extends AbstractTest {
         /* actions */
         homePage.clickOnLogInCTA();
         logInPage.verifyIfHeaderIsLogin("LOGIN");
-        logInPage.doLogIn(userEmail, userPwd+ "txt");
+        logInPage.doLogIn(userEmail+ redundantTxt, userPwd);
         logInPage.verifyIfErrorIsPresented();
-        Log.info("EXECUTED TEST CASE LOGIN_03");
+        Log.info("EXECUTED TEST CASE LOGIN_02");
         tearDownMethod();
     }
 }

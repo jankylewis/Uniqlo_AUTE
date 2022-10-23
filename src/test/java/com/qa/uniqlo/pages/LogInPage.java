@@ -1,6 +1,7 @@
 package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.jetbrains.annotations.NotNull;
@@ -8,7 +9,7 @@ import org.jetbrains.annotations.NotNull;
 public class LogInPage {
 
     private Page page;
-    private CommonHandling cmHandler= new CommonHandling();
+    private CommonHandling commonHandler= new CommonHandling();
     private String errorTxt= "Sorry, this does not match our records. Check the spelling and try again.";
     private String TXT_EMAIL= "//input[@type= \"email\" and @name= \"login_id\"]";
     private String TXT_PASSWORD= "//input[@type= \"password\" and @name= \"password\"]";
@@ -22,12 +23,12 @@ public class LogInPage {
     }
 
     public void setEmail(String userEmail) {
-        cmHandler.setTxtIntoElement(TXT_EMAIL, cmHandler.normalizeStr(userEmail));
+        commonHandler.setTxtIntoElement(TXT_EMAIL, commonHandler.normalizeStr(userEmail));
         Log.info("INPUTTED "+ userEmail+ " SUCCESSFULLY >>");
     }
 
     public void setPassword(String userPassword) {
-        cmHandler.setTxtIntoElement(TXT_PASSWORD, userPassword);
+        commonHandler.setTxtIntoElement(TXT_PASSWORD, userPassword);
         Log.info("INPUTTED "+ userPassword+ " SUCCESSFULLY >>");
     }
 
@@ -41,17 +42,17 @@ public class LogInPage {
     }
 
     public void clickOnLogInCTA() {
-        cmHandler.clickOnElement(CTA_LOGIN);
+        commonHandler.clickOnElement(CTA_LOGIN);
         Log.info("CLICKED ON LOGIN CTA AT LOGIN PAGE >>");
     }
 
     public void verifyIfHeaderIsLogin(@NotNull String logInTxt) {
-        cmHandler.verifyIfSelectorHasTxt(LBL_LOGIN_HEADER, logInTxt.toUpperCase());
+        commonHandler.verifyIfSelectorHasTxt(LBL_LOGIN_HEADER, logInTxt.toUpperCase());
         Log.info("THE LOGIN HEADER IS PRESENTED >>");
     }
 
     public void verifyIfErrorIsPresented() {
-        cmHandler.verifyIfSelectorHasTxt(LBL_ERROR, errorTxt);
+        commonHandler.verifyIfSelectorHasTxt(LBL_ERROR, errorTxt);
         Log.warn("THE ERROR MESSAGE IS PRESENTED >>");
     }
 }

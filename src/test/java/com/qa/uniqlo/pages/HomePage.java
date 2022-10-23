@@ -1,12 +1,13 @@
 package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.utilities.logs.Log;
 
 public class HomePage {
     private Page page;
-    private CommonHandling cmHandler= new CommonHandling();
+    private CommonHandling commonHandler= new CommonHandling();
     private String CTA_UNIQLO_LOGO= "//a[@aria-current= \"page\"]";
     private String CTA_LIST_WOMEN_GARMENT_MENU= "//li[@data-test= \"women-navItem\"]/a[div/span[contains(text(), \"women\")]]";
     private String CTA_LIST_MEN_GARMENT_MENU= "//li[@data-test= \"men-navItem\"]/a[div/span[contains(text(), \"men\")]]";
@@ -46,19 +47,22 @@ public class HomePage {
         return homePageUrl;
     }
 
-    public String doSearch(String searchKey) {
-        return null;
+    public void doSearch(String searchKey) {
+        commonHandler.setTxtIntoElement(TXT_SEARCH, searchKey);
+        commonHandler.keyPressedEnter();
+        Log.info("CONDUCTED SEARCH >>");
     }
 
     public void clickOnLogInCTA() {
-        cmHandler.clickOnElement(CTA_LOGIN);
+        commonHandler.clickOnElement(CTA_LOGIN);
         Log.info("CLICKED ON LOGIN CTA AT HOME PAGE >>");
     }
 
     public void clickOnProfileCTA() {
-        cmHandler.hoverOnElement(CTA_ACCOUNT);
+        commonHandler.waitForPageToLoad(LoadState.NETWORKIDLE);
+        commonHandler.hoverOnElement(CTA_ACCOUNT);
         Log.info("HOVERED IN ACCOUNT CTA AT HOME PAGE >>");
-        cmHandler.clickOnElement(CTA_ACCOUNT_PROFILE);
+        commonHandler.clickOnElement(CTA_ACCOUNT_PROFILE);
         Log.info("CLICKED ON ACCOUNT PROFILE CTA AT HOME PAGE >>");
     }
 }
