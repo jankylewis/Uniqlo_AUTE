@@ -50,6 +50,11 @@ public class CommonHandling extends AbstractTest {
         return expTxt.contains(toBeVerifiedTxt);
     }
 
+    public static @NotNull boolean verifyIfStringIsEqualized(
+            @NotNull String expTxt, String toBeVerifiedTxt) {
+        return expTxt.equals(toBeVerifiedTxt);
+    }
+
     public static void verifyIfStringIsEqual(@NotNull String expTxt, @NotNull String actTxt) {
         String expTxtNormalized= expTxt.trim().toLowerCase();
         String actTxtNormalized= actTxt.trim().toLowerCase();

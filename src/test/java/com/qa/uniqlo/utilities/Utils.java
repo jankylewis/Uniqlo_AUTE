@@ -16,8 +16,7 @@ public class Utils {
     private static CommonHandling commonHandler= new CommonHandling();
     private static Properties properties;
 
-
-    private enum OSName {WINDOWS, MAC, LINUX, UNKNOWN};
+    public enum OSName {WINDOWS, MAC, LINUX, UNKNOWN};
     public static OSName getOSName() {
         String osName= commonHandler.normalizeStr(System.getProperty(("os.name")));
         if (commonHandler.verifyIfStringIsContained(osName, "win")) {
@@ -39,8 +38,6 @@ public class Utils {
     public static @Nullable String getBrowserName(Properties properties) {
         String browserName= commonHandler.normalizeStr(properties.getProperty("browser"));
         return browserName;
-
-
 //        String browserName= System.getenv("BROWSER");
 //        if (browserName== null) {
 //            browserName= "chromium";
@@ -48,8 +45,10 @@ public class Utils {
 //        return browserName;
     }
 
-    public static BrowserType getBrowserTypeFromEnv(Playwright playwright) {
-        String browserName= getBrowserName();
+    public static BrowserType getBrowserTypeFromEnv(
+            Playwright playwright,
+            Properties properties) {
+        String browserName= getBrowserName(properties);
         switch (browserName) {
             case "safari":
                 return playwright.webkit();
@@ -80,6 +79,5 @@ public class Utils {
             exception.printStackTrace();
         }
         return properties;
-
     }
 }

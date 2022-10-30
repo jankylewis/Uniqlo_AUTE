@@ -24,8 +24,9 @@ public class SearchingTest extends AbstractTest {
         /* prepare data */
         final String searchKey= "track";
         /* actions */
-        homePage.doSearch("track");
-        Thread.sleep(4000);
+        homePage.doSearch(searchKey);
+        searchingPage.verifyProductName();
+//        Thread.sleep(4200);
         tearDownMethod();
 
 

@@ -26,8 +26,8 @@ public class LogInTest extends AbstractTest {
         setUpMethod();
         /* prepare data */
         AccountManagement accountModel= new AccountManagement();
-        accountModel.setUserEmail(prop.getProperty("userEmail"));
-        accountModel.setUserPassword(prop.getProperty("userPassword"));
+        accountModel.setUserEmail(properties.getProperty("userEmail"));
+        accountModel.setUserPassword(properties.getProperty("userPassword"));
         String userEmail= accountModel.getUserEmail();
         String userPwd= accountModel.getUserPassword();
         /* actions */
@@ -49,8 +49,8 @@ public class LogInTest extends AbstractTest {
         /* prepare data */
         setUpMethod();
         AccountManagement accountModel= new AccountManagement();
-        accountModel.setUserEmail(prop.getProperty("userEmail"));
-        accountModel.setUserPassword(prop.getProperty("userPassword"));
+        accountModel.setUserEmail(properties.getProperty("userEmail"));
+        accountModel.setUserPassword(properties.getProperty("userPassword"));
         String userEmail= accountModel.getUserEmail();
         String userPwd= accountModel.getUserPassword();
         /* actions */
@@ -70,8 +70,8 @@ public class LogInTest extends AbstractTest {
         setUpMethod();
         Log.info(redundantTxt);
         AccountManagement accountModel= new AccountManagement();
-        accountModel.setUserEmail(prop.getProperty("userEmail"));
-        accountModel.setUserPassword(prop.getProperty("userPassword"));
+        accountModel.setUserEmail(properties.getProperty("userEmail"));
+        accountModel.setUserPassword(properties.getProperty("userPassword"));
         String userEmail= accountModel.getUserEmail();
         String userPwd= accountModel.getUserPassword();
         /* actions */

@@ -1,5 +1,7 @@
 package com.qa.uniqlo.base;
 
+import com.microsoft.playwright.Browser;
+import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.qa.uniqlo.pages.LogInPage;
 import com.qa.uniqlo.pages.MyProfilePage;
@@ -14,9 +16,9 @@ import java.util.Properties;
 
 public class AbstractTest {
 
-    PlaywrightFactory pf;
+    PlaywrightFactory playwrightFactory;
     protected static Page page;
-    protected Properties prop;
+    protected Properties properties;
     protected HomePage homePage;
     protected LogInPage logInPage;
     protected MyProfilePage myProfilePage;
@@ -24,9 +26,9 @@ public class AbstractTest {
 
     @BeforeClass(enabled = false)
     public void setUpTestCase() {
-        pf= new PlaywrightFactory();
-        prop= pf.init_prop();
-        page= pf.initBrowser(prop);
+        playwrightFactory= new PlaywrightFactory();
+        properties= playwrightFactory.init_prop();
+        page= playwrightFactory.initBrowser(properties);
         System.out.println("\r");
         Log.info("TRIGGER BROWSER >>");
         System.out.println("\r");
@@ -45,6 +47,7 @@ public class AbstractTest {
             }
             else {
                 page.context().browser().close();
+                
                 Log.warn("THERE IS NO COOKIES TO BE DELETED >>");
             }
         }
