@@ -1,9 +1,7 @@
 package com.qa.uniqlo.testCases;
 
-import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.base.AbstractTest;
-import com.qa.uniqlo.models.AccountManagement;
+import com.qa.uniqlo.models.data.AccountManagement;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.testng.annotations.*;
 

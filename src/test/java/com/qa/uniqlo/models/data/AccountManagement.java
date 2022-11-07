@@ -1,4 +1,4 @@
-package com.qa.uniqlo.models;
+package com.qa.uniqlo.models.data;
 
 import com.google.gson.annotations.SerializedName;
 

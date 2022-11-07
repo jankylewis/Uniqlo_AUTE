@@ -18,18 +18,44 @@ public class SearchingTest extends AbstractTest {
         tearDownTestCase();
     }
 
-    @Test
+    @Test(description =
+            "Searching without pagination")
     public void searchingByGuestTest_01() throws Exception {
         setUpMethod();
-        /* prepare data */
+        /* Step: prepare data */
         final String searchKey= "track";
-        /* actions */
+        /* Step: do searching */
         homePage.doSearch(searchKey);
-        searchingPage.verifyProductName();
-//        Thread.sleep(4200);
+        /* Step: verify product name after searching */
+        searchingPage.verifyTestCasePassedWithoutPaging(searchKey);
         tearDownMethod();
+    }
 
+    @Test(description =
+            "Searching without returned result")
+    public void searchingByGuestTest_02() throws Exception {
+        setUpMethod();
+        /* Step: prepare data */
+        final String searchKey= "track pumpba";
+        /* Step: do searching */
+        homePage.doSearch(searchKey);
+        /* Step: verify the error message is presented */
+        searchingPage.verifyTestCaseFailed();
+        tearDownMethod();
+    }
+
+    @Test(description =
+            "Searching with pagination")
+    public void searchingByGuestTest_03() throws Exception {
+        setUpMethod();
+        /* Step: prepare data */
+        final String searchKey= "l";
+        /* Step: do searching */
+        homePage.doSearch(searchKey);
+        searchingPage.verifyProductNameHavingPaging(searchKey);
+//        Thread.sleep(3000);
 
     }
+
 
 }
