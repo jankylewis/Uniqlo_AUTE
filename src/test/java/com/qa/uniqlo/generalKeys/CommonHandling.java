@@ -112,8 +112,9 @@ public class CommonHandling extends AbstractTest {
         AbstractTest.page.waitForLoadState(LoadState.valueOf((loadState).toString().toUpperCase()));
     }
 
-    public static void waitElementToBeVisible(String expSelector, int timeOut, WaitForSelectorState waitForSelectorState) {
-//        AbstractTest.page.locator(expSelector).waitFor(Locator.WaitForOption);
+    public static void waitElementToBeVisible(String expSelector, WaitForSelectorState waitForSelectorState) {
+        Locator.WaitForOptions waitForOptions= new Locator.WaitForOptions();
+        AbstractTest.page.locator(expSelector).waitFor(waitForOptions.setState(waitForSelectorState));
     }
 
 
