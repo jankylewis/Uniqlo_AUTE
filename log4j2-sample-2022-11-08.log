@@ -1,0 +1,38 @@
+[INFO ] 2022-11-08 18:33:26.070 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:33:26.072 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:33:26.072 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-11-08 18:33:26.073 [main] Log - THE DESIGNATED BROWSER= firefox
+[INFO ] 2022-11-08 18:34:53.627 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:34:53.628 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:34:53.628 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {win}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - VERIFY IF {mac os x} CONTAINS {mac os x}
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-11-08 18:34:53.629 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-11-08 18:34:53.630 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-11-08 18:34:53.630 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-11-08 18:34:53.630 [main] Log - THE DESIGNATED BROWSER= firefox
+[INFO ] 2022-11-08 18:35:02.314 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-11-08 18:35:02.457 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-11-08 18:35:02.581 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-11-08 18:35:02.581 [main] Log - CONDUCTED SEARCH >>

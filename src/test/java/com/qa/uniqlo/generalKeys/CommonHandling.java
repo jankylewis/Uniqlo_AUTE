@@ -37,6 +37,7 @@ public class CommonHandling extends AbstractTest {
         AbstractTest.page.waitForSelector(expSelector);
         Log.info("FOUND SELECTOR= "+ expSelector);
         AbstractTest.page.click(expSelector);
+        Log.info("CLICK ON SELECTOR= "+ expSelector);
     }
 
     public static void procrastinate(int timeOut) throws Exception {
@@ -72,6 +73,17 @@ public class CommonHandling extends AbstractTest {
     public static void verifyIfFloatNumberIsEqual(Float expFloat, Float actFloat) {
         Log.info("VERIFY IF {" + expFloat+ "} IS EQUAL TO {"+ actFloat+ "}");
         Assert.assertEquals(expFloat, actFloat);
+    }
+
+    public static boolean compareIntLessEqualNumbers(int smaller, int bigger) {
+        if (smaller<= bigger) {
+            Log.info("THE INPUTTED NUMBER IS SMALLER >>   ");
+            return true;
+        }
+        else {
+            Log.info("THE INPUTTED NUMBER IS BIGGER >>   ");
+            return false;
+        }
     }
 
     public static void verifyIfSelectorHasTxt(String expSelector, String expTxt) {

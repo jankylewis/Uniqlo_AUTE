@@ -8,6 +8,8 @@ import com.qa.uniqlo.models.data.Searching;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.Nullable;
+import org.testng.Assert;
+
 import static com.qa.uniqlo.generalKeys.Constants.*;
 
 import java.util.ArrayList;
@@ -38,8 +40,12 @@ public class SearchingPage {
         verifyNoResultIsPresent();
     }
 
-    public void verifyTestCasePassedWithPaging(final String searchKey) throws Exception {
-        verifyProductNameHavingPaging(searchKey);
+    public void verifyTestCasePassedWithEasyPaging(final String searchKey) throws Exception {
+        getProductNameHavingEasyPaging();
+    }
+
+    public void verifyTestCasePassedWithPagings(final String searchKey) throws Exception {
+
     }
 
     public void verifySearchResultLabel(final String searchKey) {
@@ -74,34 +80,66 @@ public class SearchingPage {
         }
     }
 
-    public void verifyProductNameHavingPaging(final String searchKey) throws Exception {
+    public void getProductNameHavingEasyPaging() throws Exception {
         Searching searchingModel= new Searching();
         commonHandler.waitForPageToLoad(NETWORK_IDLE_STATE);
-        int loadingCounter= 0;
-        while (!"0".equals("1")) {
-            commonHandler.waitForPageToLoad(DOM_CONTENT_LOADED_STATE);
+        while (!commonHandler.verifyIfStringIsEqualized("0", "1")) {
             if (commonHandler.verifyIfElementIsPresented(CTA_VIEW_MORE)) {
                 Log.info("VIEW MORE CTA IS VISIBLE >>   ");
-                Locator listProductName= page.locator(LBL_PRODUCT_NAME_CHILD);
-                Log.info("TOTAL PRODUCT COUNTED= "+ listProductName.count());
-                searchingModel.setListOfProductName(listProductName.allTextContents());
-                List<String> listOfProductName= searchingModel.getListOfProductName();
-                Log.info("LIST PRODUCT NAME= "+ listOfProductName);
                 commonHandler.scrollToElement(CTA_VIEW_MORE);
-                commonHandler.procrastinate(TIMEOUT2000MS);
+                commonHandler.procrastinate(MINTIMEOUT);
                 commonHandler.clickOnElement(CTA_VIEW_MORE);
-                commonHandler.waitForPageToLoad(DOM_CONTENT_LOADED_STATE);
-                commonHandler.procrastinate(TIMEOUT2000MS);
             }
             else {
-                Log.error("VIEW MORE CTA IS NOT VISIBLE ANYMORE >>     ");
+                Log.warn("VIEW MORE CTA IS NOT VISIBLE ANYMORE >>     ");
                 break;
             }
-            loadingCounter+=1;
         }
-        Log.info("INT LOADING COUNTER= "+ loadingCounter);
+        commonHandler.waitForPageToLoad(LOAD_STATE);
+        Locator listProductName= page.locator(LBL_PRODUCT_NAME_CHILD);
+        int productCounter= listProductName.count();
+        Log.info("TOTAL PRODUCT COUNTED= "+ productCounter);
+        if (productCounter>= 24) {
+            searchingModel.setListOfProductName(listProductName.allTextContents());
+            List<String> listOfProductName= searchingModel.getListOfProductName();
+            Log.info("LIST PRODUCT NAME= "+ listOfProductName);
+        }
+//        return searchingModel;
+    }
 
-
+    public void getProductNameHavingMultiplePagings() throws Exception {
+        Searching searchingModel= new Searching();
+        commonHandler.waitForPageToLoad(NETWORK_IDLE_STATE);
+        int viewMoreCounter= 0;
+        while (!commonHandler.verifyIfStringIsEqualized("0", "1")) {
+            if (commonHandler.verifyIfElementIsPresented(CTA_VIEW_MORE)) {
+                Log.info("VIEW MORE CTA IS VISIBLE >>  ");
+                Locator listProductName= page.locator(LBL_PRODUCT_NAME_CHILD);
+                int productNameCounter= listProductName.count();
+                Log.info("TOTAL PRODUCT COUNTED= "+ productNameCounter);
+                if (productNameCounter>= 24) {
+                    searchingModel.setListOfProductName(listProductName.allTextContents());
+                    List<String> listOfProductName= searchingModel.getListOfProductName();
+                    Log.info("LIST PRODUCT NAME= "+ listOfProductName);
+                    commonHandler.scrollToElement(CTA_VIEW_MORE);
+                    commonHandler.procrastinate(TIMEOUT2000MS);
+                    commonHandler.waitForPageToLoad(DOM_CONTENT_LOADED_STATE);
+                    commonHandler.procrastinate(TIMEOUT2000MS);
+                }
+                else {
+                    Log.error("WRONG DETECTION!   ");
+                    page.context().browser().close();
+                }
+            }
+            else {
+                Log.warn("VIEW MORE CTA IS NOT VISIBLE ANYMORE >>   ");
+                Log.info("THERE WILL BE NO MORE PRODUCTS >>   ");
+                break;
+            }
+            viewMoreCounter+=1;
+        }
+        Log.info("NUMBER OF CLICKING ON VIEW MORE= "+ viewMoreCounter);
+//        return searchingModel;
     }
 
 

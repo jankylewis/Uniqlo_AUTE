@@ -41,21 +41,30 @@ public class SearchingTest extends AbstractTest {
         homePage.doSearch(searchKey);
         /* Step: verify the error message is presented */
         searchingPage.verifyTestCaseFailed();
-        tearDownMethod();
+//        tearDownMethod();
     }
 
     @Test(description =
-            "Searching with pagination")
+            "Searching with a pagination")
     public void searchingByGuestTest_03() throws Exception {
         setUpMethod();
         /* Step: prepare data */
-        final String searchKey= "l";
+        final String searchKey= "line";
         /* Step: do searching */
         homePage.doSearch(searchKey);
-        searchingPage.verifyProductNameHavingPaging(searchKey);
+        searchingPage.verifyTestCasePassedWithEasyPaging(searchKey);
 //        Thread.sleep(3000);
-
+//        tearDownMethod();
     }
+
+    @Test(description =
+        "Searching with mutiple pages")
+    public void searchingByGuestTest_04() throws Exception {
+        setUpMethod();
+
+//        tearDownMethod();
+    }
+
 
 
 }
