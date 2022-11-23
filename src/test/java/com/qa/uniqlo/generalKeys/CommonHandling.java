@@ -1,6 +1,7 @@
 package com.qa.uniqlo.generalKeys;
 
 import com.microsoft.playwright.Locator;
+import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.WaitForSelectorState;
 import com.qa.uniqlo.base.AbstractTest;
@@ -12,6 +13,8 @@ import org.testng.Assert;
 import static com.microsoft.playwright.options.WaitForSelectorState.VISIBLE;
 
 public class CommonHandling extends AbstractTest {
+
+    private static String LOADING_INDICATOR= "//div[@data-test= \"loadingIndicator\"][span]";
 
     public static @NotNull String normalizeStr(@NotNull String expStr) {
         Log.info("NORMALIZED STR: "+ expStr);
@@ -94,7 +97,8 @@ public class CommonHandling extends AbstractTest {
 
     public static boolean verifyIfElementIsPresented(@NotNull String expSelector) {
         Log.info("VERIFY IF "+ expSelector+ " IS VISIBLE >>  ");
-        return AbstractTest.page.locator(expSelector).isVisible();
+        Locator.IsVisibleOptions isVisibleOptions= new Locator.IsVisibleOptions();
+        return AbstractTest.page.locator(expSelector).isVisible(isVisibleOptions.setTimeout(Double.valueOf(Constants.MAXTIMEOUT)));
     }
 
     public static void scrollToElement(@NotNull String expSelector) {
@@ -120,18 +124,56 @@ public class CommonHandling extends AbstractTest {
         Log.info("PRESSED ENTER >>");
     }
 
-    public static void waitForPageToLoad(@NotNull LoadState loadState) {
-        AbstractTest.page.waitForLoadState(LoadState.valueOf((loadState).toString().toUpperCase()));
+    public static void waitForPageToLoad(@NotNull LoadState loadState, int timeOut) throws Exception{
+        Page.WaitForLoadStateOptions waitForLoadStateOptions= new Page.WaitForLoadStateOptions();
+        if (verifyIfStringIsContained(loadState.toString(), Constants.LOAD_STATE.toString())) {
+            Thread.sleep(timeOut);
+            AbstractTest.page.waitForLoadState(Constants.LOAD_STATE, waitForLoadStateOptions.setTimeout(Double.valueOf(Constants.MAXTIMEOUT)));
+        }
+        if (verifyIfStringIsContained(loadState.toString(), Constants.DOM_CONTENT_LOADED_STATE.toString())) {
+            Thread.sleep(timeOut);
+            AbstractTest.page.waitForLoadState(Constants.DOM_CONTENT_LOADED_STATE, waitForLoadStateOptions.setTimeout(Double.valueOf(Constants.MAXTIMEOUT)));
+        }
+        if (verifyIfStringIsContained(loadState.toString(), Constants.NETWORK_IDLE_STATE.toString())) {
+            Thread.sleep(timeOut);
+            AbstractTest.page.waitForLoadState(Constants.NETWORK_IDLE_STATE, waitForLoadStateOptions.setTimeout(Double.valueOf(Constants.MAXTIMEOUT)));
+        }
+//        AbstractTest.page.waitForLoadState(LoadState.valueOf((loadState).toString().toUpperCase()));
     }
 
     public static void waitElementToBeVisible(String expSelector, WaitForSelectorState waitForSelectorState) {
+        int timeOut= Constants.MAXTIMEOUT;
         Locator.WaitForOptions waitForOptions= new Locator.WaitForOptions();
-        AbstractTest.page.locator(expSelector).waitFor(waitForOptions.setState(waitForSelectorState));
+        AbstractTest.page.locator(expSelector).waitFor(waitForOptions.setState(waitForSelectorState).setTimeout(timeOut));
     }
 
+    public static void waitForSelectorIsVisible(String expSelector) {
+        int maxTimeOut= Constants.TIMEOUT3000MS * 10;
+        Page.WaitForSelectorOptions waitForSelectorOptions= new Page.WaitForSelectorOptions();
+        AbstractTest.page.waitForSelector(expSelector, waitForSelectorOptions.setState(Constants.VISIBLE_STATE).setTimeout(maxTimeOut));
+    }
 
+    public static void waitForSelectorIsDetached(String expSelector) {
+        int timeOut3s= Constants.TIMEOUT3000MS;
+        Page.WaitForSelectorOptions waitForSelectorOptions= new Page.WaitForSelectorOptions();
+        AbstractTest.page.waitForSelector(expSelector, waitForSelectorOptions.setState(Constants.DETACHED_STATE).setTimeout(timeOut3s));
+    }
 
+    public static void waitForSelectorIsHidden(String expSelector) {
+        int timeOut3s= Constants.TIMEOUT3000MS;
+        Page.WaitForSelectorOptions waitForSelectorOptions= new Page.WaitForSelectorOptions();
+        AbstractTest.page.waitForSelector(expSelector, waitForSelectorOptions.setState(Constants.HIDDEN_STATE).setTimeout(timeOut3s));
+    }
 
+    public static void waitForSelectorIsAttached(String expSelector) {
+        int timeOut3s= Constants.TIMEOUT3000MS;
+        Page.WaitForSelectorOptions waitForSelectorOptions= new Page.WaitForSelectorOptions();
+        AbstractTest.page.waitForSelector(expSelector, waitForSelectorOptions.setState(Constants.ATTACHED_STATE).setTimeout(timeOut3s));
+    }
 
+    public static void waitForLoadingIndicatorToBeVisible() {
+//        waitForSelectorIsVisible(LOADING_INDICATOR);
+        AbstractTest.page.locator(LOADING_INDICATOR).waitFor();
+    }
 
 }

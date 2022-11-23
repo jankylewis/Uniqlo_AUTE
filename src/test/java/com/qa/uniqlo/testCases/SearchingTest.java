@@ -27,7 +27,7 @@ public class SearchingTest extends AbstractTest {
         /* Step: do searching */
         homePage.doSearch(searchKey);
         /* Step: verify product name after searching */
-        searchingPage.verifyTestCasePassedWithoutPaging(searchKey);
+        searchingPage.verifyTestCasePassed(searchKey);
         tearDownMethod();
     }
 
@@ -49,10 +49,12 @@ public class SearchingTest extends AbstractTest {
     public void searchingByGuestTest_03() throws Exception {
         setUpMethod();
         /* Step: prepare data */
-        final String searchKey= "line";
+        final String searchKey= "li";
         /* Step: do searching */
         homePage.doSearch(searchKey);
-        searchingPage.verifyTestCasePassedWithEasyPaging(searchKey);
+        searchingPage.verifyTestCasePassed(searchKey);
+        /* Step: verify the product name whether containing searchKey */
+
 //        Thread.sleep(3000);
 //        tearDownMethod();
     }
@@ -61,6 +63,12 @@ public class SearchingTest extends AbstractTest {
         "Searching with mutiple pages")
     public void searchingByGuestTest_04() throws Exception {
         setUpMethod();
+        /* Step: prepare data */
+        final String searchKey= "li";
+        /* Step: do searching */
+        homePage.doSearch(searchKey);
+        /* Step: verify */
+        searchingPage.verifyTestCasePassedWithPagings(searchKey);
 
 //        tearDownMethod();
     }

@@ -58,8 +58,8 @@ public class HomePage {
         Log.info("CLICKED ON LOGIN CTA AT HOME PAGE >>");
     }
 
-    public void clickOnProfileCTA() {
-        commonHandler.waitForPageToLoad(LoadState.NETWORKIDLE);
+    public void clickOnProfileCTA() throws Exception{
+        commonHandler.waitForPageToLoad(LoadState.NETWORKIDLE, 0);
         commonHandler.hoverOnElement(CTA_ACCOUNT);
         Log.info("HOVERED IN ACCOUNT CTA AT HOME PAGE >>");
         commonHandler.clickOnElement(CTA_ACCOUNT_PROFILE);
