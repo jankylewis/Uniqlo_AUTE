@@ -10,9 +10,9 @@
         <classes>
             <class name="com.qa.uniqlo.testCases.SearchingTest">
                 <methods>
-<!--                    <include name="searchingByGuestTest_01"/>-->
+                    <include name="searchingByGuestTest_01"/>
 <!--                    <include name="searchingByGuestTest_02"/>-->
-                    <include name="searchingByGuestTest_03"/>
+<!--                    <include name="searchingByGuestTest_03"/>-->
 <!--                    <include name="searchingByGuestTest_04"/>-->
                 </methods>
             </class>

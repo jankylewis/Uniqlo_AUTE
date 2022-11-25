@@ -49,29 +49,13 @@ public class SearchingTest extends AbstractTest {
     public void searchingByGuestTest_03() throws Exception {
         setUpMethod();
         /* Step: prepare data */
-        final String searchKey= "li";
+        final String searchKey= "l";
         /* Step: do searching */
         homePage.doSearch(searchKey);
-        searchingPage.verifyTestCasePassed(searchKey);
         /* Step: verify the product name whether containing searchKey */
-
-//        Thread.sleep(3000);
-//        tearDownMethod();
+        searchingPage.verifyTestCasePassed(searchKey);
     }
 
-    @Test(description =
-        "Searching with mutiple pages")
-    public void searchingByGuestTest_04() throws Exception {
-        setUpMethod();
-        /* Step: prepare data */
-        final String searchKey= "li";
-        /* Step: do searching */
-        homePage.doSearch(searchKey);
-        /* Step: verify */
-        searchingPage.verifyTestCasePassedWithPagings(searchKey);
-
-//        tearDownMethod();
-    }
 
 
 

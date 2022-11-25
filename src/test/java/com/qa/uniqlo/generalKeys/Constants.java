@@ -13,6 +13,7 @@ public class Constants {
     public static final int TIMEOUT1000ms= 1000;
     public static final int TIMEOUT2000MS= 2000;
     public static final int TIMEOUT3000MS= 3000;
+    public static final int TIMEOUT5000M= 5000;
     public static final int MAXTIMEOUT= 30000;
     public static final int MINTIMEOUT= 500;
     public static final LoadState NETWORK_IDLE_STATE= LoadState.NETWORKIDLE;

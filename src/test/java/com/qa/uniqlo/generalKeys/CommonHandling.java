@@ -171,9 +171,21 @@ public class CommonHandling extends AbstractTest {
         AbstractTest.page.waitForSelector(expSelector, waitForSelectorOptions.setState(Constants.ATTACHED_STATE).setTimeout(timeOut3s));
     }
 
-    public static void waitForLoadingIndicatorToBeVisible() {
-//        waitForSelectorIsVisible(LOADING_INDICATOR);
-        AbstractTest.page.locator(LOADING_INDICATOR).waitFor();
+    public static void waitForLoadingIndicatorToBeVisible() throws Exception {
+        if (verifyIfElementIsPresented(LOADING_INDICATOR)!=true) {
+            Log.info("WAITING LOADING INDICATOR TO BE VISIBLE >>    ");
+//            AbstractTest.page.locator(LOADING_INDICATOR).waitFor(new Locator.WaitForOptions().setState(Constants.HIDDEN_STATE).setTimeout(Constants.MAXTIMEOUT));
+            waitForPageToLoad(Constants.LOAD_STATE, Constants.TIMEOUT5000M);
+//            AbstractTest.page.waitForLoadState(Constants.LOAD_STATE, Constants.MAXTIMEOUT);
+            Log.info("LOCATED THE LOADING INDICATOR >>    ");
+        }
+        else {
+            Log.info("LOADING INDICATOR IS VISIBLE >>    ");
+        }
     }
+
+
+
+
 
 }
