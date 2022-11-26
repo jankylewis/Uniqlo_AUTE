@@ -52,13 +52,17 @@ public class CommonHandling extends AbstractTest {
             @NotNull String expTxt, String toBeVerifiedTxt) {
         String expTxtNormalized= expTxt.toLowerCase();
         String toBeVerifiedTxtNormalized= toBeVerifiedTxt.toLowerCase();
-        Log.info("VERIFY IF {"+ expTxt+ "} CONTAINS {"+ toBeVerifiedTxt+ "}");
-        return expTxtNormalized.contains(toBeVerifiedTxtNormalized);
+        boolean comparison= expTxtNormalized.contains(toBeVerifiedTxtNormalized);
+        if (comparison) {
+//            Log.info("VERIFY IF {"+ expTxt+ "} CONTAINS {"+ toBeVerifiedTxt+ "}");
+            Log.info("{"+ expTxt+ "} CONTAINED {"+ toBeVerifiedTxt+ "}");
+        }
+        return comparison;
     }
 
     public static @NotNull boolean verifyIfStringIsEqualized(
             @NotNull String expTxt, String toBeVerifiedTxt) {
-        return expTxt.equals(toBeVerifiedTxt);
+        return (expTxt.toLowerCase()).equals(toBeVerifiedTxt.toLowerCase());
     }
 
     public static void verifyIfStringIsEqual(@NotNull String expTxt, @NotNull String actTxt) {

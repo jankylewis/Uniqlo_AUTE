@@ -105,6 +105,4 @@ public class SearchingPage {
         searchingModel.setListOfProductName(listProductName.allTextContents());
         return searchingModel;
     }
-
-
 }
