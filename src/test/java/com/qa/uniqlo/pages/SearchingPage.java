@@ -2,19 +2,12 @@ package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.generalKeys.CommonHandling;
-import com.qa.uniqlo.generalKeys.Constants;
-import com.qa.uniqlo.models.data.Searching;
+import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
-import org.apache.commons.lang3.StringUtils;
-import org.jetbrains.annotations.Contract;
-import org.jetbrains.annotations.Nullable;
-import org.testng.Assert;
 
 import static com.qa.uniqlo.generalKeys.Constants.*;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class SearchingPage {
@@ -37,7 +30,7 @@ public class SearchingPage {
 
     public void verifyTestCasePassed(final String searchKey) throws Exception {
         verifySearchResultLabel(searchKey);
-        Searching searchingModel= getProductName();
+        ProductInformation searchingModel= getProductName();
         verifyProductName(searchingModel, searchKey);
     }
 
@@ -69,7 +62,7 @@ public class SearchingPage {
         }
     }
 
-    public void verifyProductName(Searching searchingModel, final String searchKey) {
+    public void verifyProductName(ProductInformation searchingModel, final String searchKey) {
         List<String> listProductName= searchingModel.getListOfProductName();
         System.out.println("\r");
         Log.info("LIST PRODUCT NAME= "+ listProductName);
@@ -81,8 +74,8 @@ public class SearchingPage {
         }
     }
 
-    public Searching getProductName() throws Exception {
-        Searching searchingModel= new Searching();
+    public ProductInformation getProductName() throws Exception {
+        ProductInformation searchingModel= new ProductInformation();
         int loadMoreCounter= 0;
         commonHandler.waitForPageToLoad(NETWORK_IDLE_STATE, 0);
         while (!commonHandler.verifyIfStringIsEqualized("0", "1")) {

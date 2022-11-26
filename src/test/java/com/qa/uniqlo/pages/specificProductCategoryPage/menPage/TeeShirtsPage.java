@@ -1,7 +1,9 @@
 package com.qa.uniqlo.pages.specificProductCategoryPage.menPage;
 
+import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
 
 import java.util.concurrent.TimeoutException;
@@ -22,6 +24,9 @@ public class TeeShirtsPage {
     private String LBL_MEN= "//ol[contains(@class, \"breadcrumbs\")]//li[2]//a";
     private String LBL_MEN_CATEGORIZED= "//ol[contains(@class, \"breadcrumbs\")]//li/span";
     private String LBL_HEADING= "//h3[contains(@class, \"head\")]/span";
+    private String LBL_PRODUCT_NAME= "//div[@id and contains(@class, \"fr-product-card default\")]//h2";
+    private String LBL_PRODUCT_LIMITED_PRICE= "//div[contains(@class, \"fr-product-price\")]//span[contains(@class, \"price-limited\")]";
+    private String LBL_PRODUCT_ORIGINAL_PRICE= "//div[contains(@class, \"fr-product-price\")]//span[contains(@class, \"price-original\")]";
     private final String menTxt= "MEN";
     private final String teeShirtsTxt= "T-SHIRTS";
 
@@ -29,6 +34,35 @@ public class TeeShirtsPage {
 
     public TeeShirtsPage(Page page) {
         this.page= page;
+    }
+
+    public int getTotalNumberOfLimitedProduct() {
+
+    }
+
+    public int getTotalNumberOfOriginalProduct() {
+
+    }
+
+    public int getTotalNumberOfProduct() throws Exception {
+        ProductInformation productModel= new ProductInformation();
+        commonHandler.waitForPageToLoad(NETWORK_IDLE_STATE, TIMEOUT3000MS);
+        while (!commonHandler.verifyIfStringIsEqualized("0", "1")) {
+            if (commonHandler.verifyIfElementIsPresented(CTA_LOAD_MORE)) {
+                Log.info("LOAD MORE CTA IS VISIBLE >>    ");
+                commonHandler.scrollToElement(CTA_LOAD_MORE);
+                commonHandler.clickOnElement(CTA_LOAD_MORE);
+                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT5000M);
+            }
+            else {
+                Log.warn("LOAD MORE CTA IS NOT FOUND >>    ");
+                break;
+            }
+        }
+        Locator listProductName= page.locator(LBL_PRODUCT_NAME);
+        int productNameCounter= listProductName.count();
+        Log.info("TOTAL PRODUCT FOUNDED= "+ productNameCounter);
+        return productNameCounter;
     }
 
     public void doSorting(String sortingCriterion) throws Exception {
