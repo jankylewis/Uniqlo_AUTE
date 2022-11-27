@@ -1,18 +1,15 @@
 package com.qa.uniqlo.pages.specificProductCategoryPage.menPage;
 
+import com.microsoft.playwright.Page;
+import com.qa.uniqlo.models.data.ProductInformation;
+import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
+import com.qa.uniqlo.utilities.logs.Log;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
-import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
-import com.qa.uniqlo.utilities.logs.Log;
 
-import java.util.List;
-import java.util.concurrent.TimeoutException;
-
-import static com.qa.uniqlo.generalKeys.Constants.*;
-
-public class TeeShirtsPage extends BaseProductPage {
+public class AllTopsPage extends BaseProductPage {
 
     private BaseProductPage baseProductPage= new BaseProductPage(page);
     private String LBL_PRODUCT_NAME_CHILD= "//div[@id and contains(@class, \"fr-product-card default\")]//h2";
@@ -21,9 +18,9 @@ public class TeeShirtsPage extends BaseProductPage {
     private String LBL_MEN_CATEGORIZED= "//ol[contains(@class, \"breadcrumbs\")]//li/span";
     private String LBL_HEADING= "//h3[contains(@class, \"head\")]/span";
     private final String menTxt= "MEN";
-    private final String teeShirtsTxt= "T-SHIRTS";
+    private final String allTopsTxt= "ALL TOPS";
 
-    public TeeShirtsPage(Page page) {
+    public AllTopsPage(Page page) {
         super(page);
     }
 
@@ -55,7 +52,7 @@ public class TeeShirtsPage extends BaseProductPage {
     public void verifyTextOfLabel() {
         verifyBreadCrumbMenLabel();
         Log.info("BREADCRUMB CONTAINED MEN LABEL {MEN}"+ " >>   ");
-        verifyBreadCrumbTeeShirtsLabel();
+        verifyBreadCrumbAllTopsLabel();
         Log.info("BREADCRUMB CONTAINED T-SHIRTS LABEL {T-shirts}"+ " >>   ");
         verifyHeading();
         Log.info("BREADCRUMB CONTAINED HEADING {MEN}"+ " >>   ");
@@ -69,10 +66,8 @@ public class TeeShirtsPage extends BaseProductPage {
         verifyBreadCrumbGenderSectorLabel(LBL_MEN, menTxt);
     }
 
-    private void verifyBreadCrumbTeeShirtsLabel() {
-        verifyBreadCrumbSectorCategorizedLabel(LBL_MEN_CATEGORIZED, teeShirtsTxt);
+    private void verifyBreadCrumbAllTopsLabel() {
+        verifyBreadCrumbSectorCategorizedLabel(LBL_MEN_CATEGORIZED, allTopsTxt);
     }
-
-
 
 }

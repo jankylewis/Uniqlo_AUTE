@@ -8,6 +8,8 @@ import com.qa.uniqlo.pages.MyProfilePage;
 import com.qa.uniqlo.factory.PlaywrightFactory;
 import com.qa.uniqlo.pages.HomePage;
 import com.qa.uniqlo.pages.SearchingPage;
+import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
+import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllTopsPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.TeeShirtsPage;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.testng.annotations.AfterClass;
@@ -25,6 +27,8 @@ public class AbstractTest {
     protected MyProfilePage myProfilePage;
     protected SearchingPage searchingPage;
     protected TeeShirtsPage teeShirtsPage;
+    protected BaseProductPage baseProductPage;
+    protected AllTopsPage allTopsPage;
     @BeforeClass(enabled = false)
     public void setUpTestCase() {
         playwrightFactory= new PlaywrightFactory();
@@ -38,6 +42,10 @@ public class AbstractTest {
         myProfilePage= new MyProfilePage(page);
         searchingPage= new SearchingPage(page);
         teeShirtsPage= new TeeShirtsPage(page);
+        allTopsPage= new AllTopsPage(page);
+        baseProductPage= new BaseProductPage(page);
+
+
     }
     @AfterClass(enabled = false)
     public void tearDownTestCase() {

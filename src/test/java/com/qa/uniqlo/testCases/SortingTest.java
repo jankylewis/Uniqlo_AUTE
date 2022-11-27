@@ -17,7 +17,7 @@ public class SortingTest extends AbstractTest {
         tearDownTestCase();
     }
 
-    @Test(description = "")
+    @Test(description = "MEN", testName = "")
     public void sortingByGuestTest_01() throws Exception {
         setUpMethod();
         /* Step: prepare test data */
@@ -28,11 +28,34 @@ public class SortingTest extends AbstractTest {
         homePage.navigateToSpecificProductPage(sector, sectorCategorized);
         teeShirtsPage.verifyTextOfLabel();
         teeShirtsPage.doSorting(sortingCriterion);
-
-
+        teeShirtsPage.verifyTestCaseSortingPassed(sortingCriterion);
         tearDownMethod();
-
-
+    }
+    @Test(description = "MEN", testName = "")
+    public void sortingByGuestTest_02() throws Exception {
+        setUpMethod();
+        /* Step: prepare test data */
+        final String sector= "men";
+        final String sectorCategorized= "teeshirts";
+        final String sortingCriterion= "low to high";
+        /* Step: navigate to specific product page */
+        homePage.navigateToSpecificProductPage(sector, sectorCategorized);
+        teeShirtsPage.doSorting(sortingCriterion);
+        teeShirtsPage.verifyTestCaseSortingPassed(sortingCriterion);
+        tearDownMethod();
+    }
+    @Test(description = "MEN", testName = "")
+    public void sortingByGuestTest_03() throws Exception {
+        setUpMethod();
+        /* Step: prepare test data */
+        final String sector= "men";
+        final String sectorCategorized= "all tops";
+        final String sortingCriterion= "low to high";
+        /* Step: navigate to specific product page */
+        homePage.navigateToSpecificProductPage(sector, sectorCategorized);
+        allTopsPage.doSorting(sortingCriterion);
+        allTopsPage.verifyTestCaseSortingPassed(sortingCriterion);
+        tearDownMethod();
     }
 
 

@@ -10,7 +10,9 @@
         <classes>
             <class name="com.qa.uniqlo.testCases.SortingTest">
                 <methods>
-                    <include name="sortingByGuestTest_01"/>
+<!--                    <include name="sortingByGuestTest_01"/>-->
+<!--                    <include name="sortingByGuestTest_02"/>-->
+                    <include name="sortingByGuestTest_03"/>
                 </methods>
             </class>
         </classes>

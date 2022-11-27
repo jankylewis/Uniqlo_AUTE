@@ -14,6 +14,7 @@ public class HomePage {
     private String CTA_LIST_KIDS_GARMENT_MENU= "//li[@data-test= \"kids-navItem\"]/a[div/span[contains(text(), \"kids\")]]";
     private String CTA_LIST_INFANT_GARMENT_MENU= "//li[@data-test= \"baby-navItem\"]/a[div/span[contains(text(), \"baby\")]]";
     private String CTA_LIST_MEN_TEESHIRTS= "(//div[contains(@class, \"global-nav\")])[3]//span[contains(text(), \"T-shirts\")][parent::div[parent::a[contains(@href, \"/vn/en/men/tops/t-shirts\")]]]";
+    private String CTA_LIST_MEN_ALLTOPS= "(//div[contains(@class, \"global-nav\")])[3]//span[contains(text(), \"All Tops\")][parent::div[parent::a[contains(@href, \"/vn/en/men/tops/tops\")]]]";
     private String CTA_LOGIN= "//a[@title= \"Login\"]/span[@aria-label= \"Login\"]";
     private String CTA_CART= "//a/span[@class= \"fr-icon\" and contains((@aria-label), \"Cart\")]";
     private String CTA_WISH= "//a/span[@class= \"fr-icon\" and contains((@aria-label), \"Wish list\")]";
@@ -47,7 +48,10 @@ public class HomePage {
                 Log.info("ABOUT TO CLICK ON T-SHIRTS CATEGORY >>   ");
                 commonHandler.clickOnElement(CTA_LIST_MEN_TEESHIRTS);
             }
-            if (commonHandler.verifyIfStringIsContained("all tops", sectorCategorized)) {}
+            if (commonHandler.verifyIfStringIsContained("all tops", sectorCategorized)) {
+                Log.info("ABOUT TO CLICK ON ALL TOPS CATEGORY >>   ");
+                commonHandler.clickOnElement(CTA_LIST_MEN_ALLTOPS);
+            }
             if (commonHandler.verifyIfStringIsContained("UT", sectorCategorized) ||
                     commonHandler.verifyIfStringIsContained("graphic t-shirts", sectorCategorized)) {}
             if (commonHandler.verifyIfStringIsContained("sweatshirts & hoodies", sectorCategorized)) {}
