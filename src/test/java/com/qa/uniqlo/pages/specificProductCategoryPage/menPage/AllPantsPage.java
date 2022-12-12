@@ -4,12 +4,8 @@ import com.microsoft.playwright.Page;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
 import com.qa.uniqlo.utilities.logs.Log;
-import com.microsoft.playwright.Locator;
-import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
-import com.qa.uniqlo.models.data.ProductInformation;
 
-public class AllTopsPage extends BaseProductPage {
+public class AllPantsPage extends BaseProductPage {
 
     private BaseProductPage baseProductPage= new BaseProductPage(page);
     private String LBL_PRODUCT_NAME_CHILD= "//div[@id and contains(@class, \"fr-product-card default\")]//h2";
@@ -18,9 +14,9 @@ public class AllTopsPage extends BaseProductPage {
     private String LBL_MEN_CATEGORIZED= "//ol[contains(@class, \"breadcrumbs\")]//li/span";
     private String LBL_HEADING= "//h3[contains(@class, \"head\")]/span";
     private final String menTxt= "MEN";
-    private final String allTopsTxt= "ALL TOPS";
+    private final String allPantsTxt= "ALL PANTS";
 
-    public AllTopsPage(Page page) {
+    public AllPantsPage(Page page) {
         super(page);
     }
 
@@ -52,8 +48,8 @@ public class AllTopsPage extends BaseProductPage {
     public void verifyTextOfLabel() {
         verifyBreadCrumbMenLabel();
         Log.info("BREADCRUMB CONTAINED MEN LABEL {MEN}"+ " >>   ");
-        verifyBreadCrumbAllTopsLabel();
-        Log.info("BREADCRUMB CONTAINED T-SHIRTS LABEL {ALL TOPS}"+ " >>   ");
+        verifyBreadCrumbAllPantsLabel();
+        Log.info("BREADCRUMB CONTAINED T-SHIRTS LABEL {ALL PANTS}"+ " >>   ");
         verifyHeading();
         Log.info("BREADCRUMB CONTAINED HEADING {MEN}"+ " >>   ");
     }
@@ -66,8 +62,8 @@ public class AllTopsPage extends BaseProductPage {
         verifyBreadCrumbGenderSectorLabel(LBL_MEN, menTxt);
     }
 
-    private void verifyBreadCrumbAllTopsLabel() {
-        verifyBreadCrumbSectorCategorizedLabel(LBL_MEN_CATEGORIZED, allTopsTxt);
+    private void verifyBreadCrumbAllPantsLabel() {
+        verifyBreadCrumbSectorCategorizedLabel(LBL_MEN_CATEGORIZED, allPantsTxt);
     }
 
 }

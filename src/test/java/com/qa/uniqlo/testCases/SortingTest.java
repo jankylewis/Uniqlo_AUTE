@@ -57,6 +57,19 @@ public class SortingTest extends AbstractTest {
         allTopsPage.verifyTestCaseSortingPassed(sortingCriterion);
         tearDownMethod();
     }
+    @Test(description = "MEN", testName = "")
+    public void sortingByGuestTest_04() throws Exception {
+        setUpMethod();
+        /* Step: prepare test data */
+        final String sector= "men";
+        final String sectorCategorized= "all pants";
+        final String sortingCriterion= "high to low";
+        /* Step: navigate to specific product page */
+        homePage.navigateToSpecificProductPage(sector, sectorCategorized);
+        allPantsPage.doSorting(sortingCriterion);
+        allPantsPage.verifyTestCaseSortingPassed(sortingCriterion);
+        tearDownMethod();
+    }
 
 
 

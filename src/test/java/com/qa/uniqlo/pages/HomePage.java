@@ -15,6 +15,7 @@ public class HomePage {
     private String CTA_LIST_INFANT_GARMENT_MENU= "//li[@data-test= \"baby-navItem\"]/a[div/span[contains(text(), \"baby\")]]";
     private String CTA_LIST_MEN_TEESHIRTS= "(//div[contains(@class, \"global-nav\")])[3]//span[contains(text(), \"T-shirts\")][parent::div[parent::a[contains(@href, \"/vn/en/men/tops/t-shirts\")]]]";
     private String CTA_LIST_MEN_ALLTOPS= "(//div[contains(@class, \"global-nav\")])[3]//span[contains(text(), \"All Tops\")][parent::div[parent::a[contains(@href, \"/vn/en/men/tops/tops\")]]]";
+    private String CTA_LIST_MEN_ALLPANTS= "(//div[contains(@class, \"global-nav\")])[3]//span[contains(text(), \"All Pants\")][parent::div[parent::a[contains(@href, \"/vn/en/men/bottoms/bottoms\")]]]";
     private String CTA_LOGIN= "//a[@title= \"Login\"]/span[@aria-label= \"Login\"]";
     private String CTA_CART= "//a/span[@class= \"fr-icon\" and contains((@aria-label), \"Cart\")]";
     private String CTA_WISH= "//a/span[@class= \"fr-icon\" and contains((@aria-label), \"Wish list\")]";
@@ -69,7 +70,10 @@ public class HomePage {
             if (commonHandler.verifyIfStringIsContained("ultra light down", sectorCategorized)) {}
             if (commonHandler.verifyIfStringIsContained("down jackets & coats", sectorCategorized)) {}
             /* pants started */
-            if (commonHandler.verifyIfStringIsContained("all pants", sectorCategorized)) {}
+            if (commonHandler.verifyIfStringIsContained("all pants", sectorCategorized)) {
+                Log.info("ABOUT TO CLICK ON ALL TOPS CATEGORY >>   ");
+                commonHandler.clickOnElement(CTA_LIST_MEN_ALLPANTS);
+            }
             if (commonHandler.verifyIfStringIsContained("jeans & colored jeans", sectorCategorized)) {}
             if (commonHandler.verifyIfStringIsContained("chinos", sectorCategorized)) {}
             if (commonHandler.verifyIfStringIsContained("slacks & dress pants", sectorCategorized)) {}

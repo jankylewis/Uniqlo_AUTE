@@ -1,5 +1,6 @@
 package com.qa.uniqlo.base;
 
+import com.beust.ah.A;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
@@ -9,6 +10,7 @@ import com.qa.uniqlo.factory.PlaywrightFactory;
 import com.qa.uniqlo.pages.HomePage;
 import com.qa.uniqlo.pages.SearchingPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
+import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllPantsPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllTopsPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.TeeShirtsPage;
 import com.qa.uniqlo.utilities.logs.Log;
@@ -29,6 +31,7 @@ public class AbstractTest {
     protected TeeShirtsPage teeShirtsPage;
     protected BaseProductPage baseProductPage;
     protected AllTopsPage allTopsPage;
+    protected AllPantsPage allPantsPage;
     @BeforeClass(enabled = false)
     public void setUpTestCase() {
         playwrightFactory= new PlaywrightFactory();
@@ -43,6 +46,7 @@ public class AbstractTest {
         searchingPage= new SearchingPage(page);
         teeShirtsPage= new TeeShirtsPage(page);
         allTopsPage= new AllTopsPage(page);
+        allPantsPage= new AllPantsPage(page);
         baseProductPage= new BaseProductPage(page);
 
 
