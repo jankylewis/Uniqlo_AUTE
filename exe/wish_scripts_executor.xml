@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Search Test Suite">
+    <test verbose="2"
+          preserve-order="true"
+          name="/Users/vinhtran02092k/Desktop/Pet_projects/Java_Playwright/Uniqlo"
+          parallel="false">
+        <groups>
+        </groups>
+        <classes>
+            <class name="com.qa.uniqlo.testCases.WishingTest">
+                <methods>
+                    <include name="wishingTest_01"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

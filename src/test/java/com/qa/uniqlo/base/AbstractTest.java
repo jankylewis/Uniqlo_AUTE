@@ -4,11 +4,8 @@ import com.beust.ah.A;
 import com.microsoft.playwright.Browser;
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.pages.LogInPage;
-import com.qa.uniqlo.pages.MyProfilePage;
+import com.qa.uniqlo.pages.*;
 import com.qa.uniqlo.factory.PlaywrightFactory;
-import com.qa.uniqlo.pages.HomePage;
-import com.qa.uniqlo.pages.SearchingPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllPantsPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllTopsPage;
@@ -32,6 +29,7 @@ public class AbstractTest {
     protected BaseProductPage baseProductPage;
     protected AllTopsPage allTopsPage;
     protected AllPantsPage allPantsPage;
+    protected WishPage wishPage;
     @BeforeClass(enabled = false)
     public void setUpTestCase() {
         playwrightFactory= new PlaywrightFactory();
@@ -48,7 +46,7 @@ public class AbstractTest {
         allTopsPage= new AllTopsPage(page);
         allPantsPage= new AllPantsPage(page);
         baseProductPage= new BaseProductPage(page);
-
+        wishPage= new WishPage(page);
 
     }
     @AfterClass(enabled = false)

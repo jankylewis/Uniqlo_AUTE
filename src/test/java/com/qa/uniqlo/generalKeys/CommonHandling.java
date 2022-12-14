@@ -4,6 +4,7 @@ import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
 import com.microsoft.playwright.options.WaitForSelectorState;
+import com.microsoft.playwright.options.WaitUntilState;
 import com.qa.uniqlo.base.AbstractTest;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.jetbrains.annotations.Contract;
@@ -179,13 +180,17 @@ public class CommonHandling extends AbstractTest {
         if (verifyIfElementIsPresented(LOADING_INDICATOR)!=true) {
             Log.info("WAITING LOADING INDICATOR TO BE VISIBLE >>    ");
 //            AbstractTest.page.locator(LOADING_INDICATOR).waitFor(new Locator.WaitForOptions().setState(Constants.HIDDEN_STATE).setTimeout(Constants.MAXTIMEOUT));
-            waitForPageToLoad(Constants.LOAD_STATE, Constants.TIMEOUT5000M);
+            waitForPageToLoad(Constants.LOAD_STATE, Constants.TIMEOUT5000MS);
 //            AbstractTest.page.waitForLoadState(Constants.LOAD_STATE, Constants.MAXTIMEOUT);
             Log.info("LOCATED THE LOADING INDICATOR >>    ");
         }
         else {
             Log.info("LOADING INDICATOR IS VISIBLE >>    ");
         }
+    }
+
+    public static void navigateToUrl(String destination) {
+        AbstractTest.page.navigate(destination, new Page.NavigateOptions().setWaitUntil(Constants.WAIT_UNTIL_LOAD_STATE));
     }
 
 

@@ -1,11 +1,19 @@
 package com.qa.uniqlo.pages;
 
+import com.beust.ah.A;
 import com.microsoft.playwright.Page;
 import com.microsoft.playwright.options.LoadState;
+import com.qa.uniqlo.base.AbstractTest;
+import com.qa.uniqlo.factory.PlaywrightFactory;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.utilities.logs.Log;
 
+import java.util.Properties;
+
 public class HomePage {
+
+    private PlaywrightFactory playwrightFactory= new PlaywrightFactory();
+    private Properties properties;
     private Page page;
     private CommonHandling commonHandler= new CommonHandling();
     private String CTA_UNIQLO_LOGO= "//a[@aria-current= \"page\"]";
@@ -35,6 +43,10 @@ public class HomePage {
 
     public HomePage(Page page) {
         this.page= page;
+    }
+
+    public void navigateToWishPage() {
+        commonHandler.clickOnElement(CTA_WISH);
     }
 
     public void navigateToSpecificProductPage(String genderSector, String sectorCategorized) {
@@ -264,6 +276,9 @@ public class HomePage {
     }
 
     public void doSearch(String searchKey) {
+        properties= playwrightFactory.init_prop();
+        commonHandler.navigateToUrl(properties.getProperty("baseUrl"));
+        Log.info("NAVIGATED TO HOME >>   ");
         commonHandler.setTxtIntoElement(TXT_SEARCH, searchKey);
         commonHandler.keyPressedEnter();
         Log.info("CONDUCTED SEARCH >>");

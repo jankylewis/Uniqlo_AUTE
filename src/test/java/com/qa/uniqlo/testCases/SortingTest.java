@@ -50,7 +50,7 @@ public class SortingTest extends AbstractTest {
         /* Step: prepare test data */
         final String sector= "men";
         final String sectorCategorized= "all tops";
-        final String sortingCriterion= "low to high";
+        final String sortingCriterion= "high to low";
         /* Step: navigate to specific product page */
         homePage.navigateToSpecificProductPage(sector, sectorCategorized);
         allTopsPage.doSorting(sortingCriterion);

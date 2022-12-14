@@ -12,7 +12,7 @@ import org.testng.Assert;
 import java.util.List;
 
 import static com.qa.uniqlo.generalKeys.Constants.*;
-import static com.qa.uniqlo.generalKeys.Constants.TIMEOUT5000M;
+import static com.qa.uniqlo.generalKeys.Constants.TIMEOUT5000MS;
 
 public class BaseProductPage {
     public void verifyProductPrice(ProductInformation productModel, final String sortingCriterion) {
@@ -35,12 +35,26 @@ public class BaseProductPage {
         if (commonHandler.verifyIfStringIsEqualized(sortingCriterion, descending)) {
             for (int i= 0; i< listProductPrice.size()-1; i++) {
                 Log.info("PRODUCT PRICE= "+ listProductPrice.get(i));
-                if (Float.parseFloat(listProductPrice.get(i))>= Float.parseFloat(listProductPrice.get(i+1))) {
-                    Log.info("SUCCESSFULLY VERIFIED {"+ listProductPrice.get(i)+ "}"+ " >= {"+ listProductPrice.get(i+1)+ "}");
+                if (listProductPrice.get(i).length()> 8) {
+                    Log.info("MILLION STARTED >>    ");
+                    String pricePlacedBefore= listProductPrice.get(i).replace(".", "");
+                    String pricePlacedAfter= listProductPrice.get(i+1).replace(".", "");
+                    if (Float.parseFloat(pricePlacedBefore)>= Float.parseFloat(pricePlacedAfter)) {
+                        Log.info("SUCCESSFULLY VERIFIED {"+ pricePlacedBefore+ "}"+ " >= {"+ pricePlacedAfter+ "}");
+                    }
+                    else {
+                        Assert.fail("UNSUCCESSFULLY VERIFIED {"+ pricePlacedBefore+ "}"+ " >= {"+ pricePlacedAfter+ "}");
+                        break;
+                    }
                 }
                 else {
-                    Log.error("UNSUCCESSFULLY VERIFIED {"+ listProductPrice.get(i)+ "}"+ " >= {"+ listProductPrice.get(i+1)+ "}");
-                    break;
+                    if (Float.parseFloat(listProductPrice.get(i))>= Float.parseFloat(listProductPrice.get(i+1))) {
+                        Log.info("SUCCESSFULLY VERIFIED {"+ listProductPrice.get(i)+ "}"+ " >= {"+ listProductPrice.get(i+1)+ "}");
+                    }
+                    else {
+                        Assert.fail("UNSUCCESSFULLY VERIFIED {"+ listProductPrice.get(i)+ "}"+ " >= {"+ listProductPrice.get(i+1)+ "}");
+                        break;
+                    }
                 }
             }
         }
@@ -64,7 +78,7 @@ public class BaseProductPage {
                 Log.info("LOAD MORE CTA IS VISIBLE >>    ");
                 commonHandler.scrollToElement(CTA_LOAD_MORE);
                 commonHandler.clickOnElement(CTA_LOAD_MORE);
-                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT5000M);
+                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT5000MS);
             }
             else {
                 Log.warn("LOAD MORE CTA IS NOT FOUND >>    ");

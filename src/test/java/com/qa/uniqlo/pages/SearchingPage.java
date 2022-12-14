@@ -2,6 +2,7 @@ package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
+import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
@@ -15,7 +16,7 @@ public class SearchingPage {
     private Page page;
     private CommonHandling commonHandler= new CommonHandling();
     private String LBL_SEARCH_RESULT= "//div[contains(@class, \"search-results-page\")]//h1/span";
-    private String LBL_PRODUCT_NAME_CHILD= "//div[@id and contains(@class, \"fr-product-card default\")]//h2";
+    private String LBL_PRODUCT_NAME_CHILD= "(//div[@id and contains(@class, \"fr-product-card default\")]//h2)";
     private String LBL_PRODUCT_NAME_PARENT= "//div[contains(@class, \"fr-product-grid row\")][//div[@id and contains(@class, \"fr-product-card default\")]]";
     private String LBL_NO_RESULT= "//div[@class= \"fr-text\"][ancestor::div[@data-test]]";
     private String LBL_PRODUCT_PRICE_CHILD;
@@ -23,9 +24,25 @@ public class SearchingPage {
     private String CTA_VIEW_MORE= "//div[@data-test= \"searchPageRoot\"]//span[contains(text(), \"View more\")]";
     private String LBL_NUMBER_OF_PRODUCT= "//div[contains(@class, \"results-count\")]/div";
     private String LOADING_INDICATOR= "//div[@data-test= \"loadingIndicator\"][span]";
+    private String CTA_WISH= "(//div[@id and contains(@class, \"fr-product-card default\")]//button/span)";
     private final String noResultMessage= "There are no results that match your search.";
     public SearchingPage(Page page) {
         this.page= page;
+    }
+
+    public void wishProduct(int quantityOfWishedProduct) throws Exception {
+        if (quantityOfWishedProduct > 0 != false) {
+            if (quantityOfWishedProduct == 1 != false) {
+                Log.info("WISH 1 PRODUCT >>    ");
+            }
+            else {
+                Log.info("WISH "+ quantityOfWishedProduct+ " PRODUCTS >>    ");
+            }
+            for (int i=1; i<= quantityOfWishedProduct; i++) {
+                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT2000MS);
+                commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]").toString());
+            }
+        }
     }
 
     public void verifyTestCasePassed(final String searchKey) throws Exception {
@@ -85,7 +102,7 @@ public class SearchingPage {
                 commonHandler.clickOnElement(CTA_VIEW_MORE);
                 loadMoreCounter++;
                 Log.info("NUMBER OF CLICKING ON VIEW MORE CTA= "+ loadMoreCounter);
-                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT5000M);
+                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT5000MS);
             }
             else {
                 Log.warn("VIEW MORE CTA IS NOT FOUND >>    ");

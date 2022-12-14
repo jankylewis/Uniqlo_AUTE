@@ -1,0 +1,95 @@
+[INFO ] 2022-12-13 19:58:22.399 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 19:58:22.400 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 19:58:22.401 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-13 19:58:22.401 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-12-13 19:58:22.401 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-13 19:58:22.401 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-13 19:58:22.401 [main] Log - THE DESIGNATED BROWSER= firefox
+[INFO ] 2022-12-13 19:58:29.659 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-13 19:58:29.664 [main] Log - {men} CONTAINED {men}
+[INFO ] 2022-12-13 19:58:29.854 [main] Log - HOVERED SELECTOR= //li[@data-test= "men-navItem"]/a[div/span[contains(text(), "men")]]
+[INFO ] 2022-12-13 19:58:29.985 [main] Log - {all pants} CONTAINED {all pants}
+[INFO ] 2022-12-13 19:58:29.985 [main] Log - ABOUT TO CLICK ON ALL TOPS CATEGORY >>   
+[INFO ] 2022-12-13 19:58:30.002 [main] Log - FOUND SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "All Pants")][parent::div[parent::a[contains(@href, "/vn/en/men/bottoms/bottoms")]]]
+[INFO ] 2022-12-13 19:58:30.168 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "All Pants")][parent::div[parent::a[contains(@href, "/vn/en/men/bottoms/bottoms")]]]
+[INFO ] 2022-12-13 19:58:30.169 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-13 19:58:33.292 [main] Log - FOUND SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 19:58:33.328 [main] Log - CLICK ON SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 19:58:33.355 [main] Log - FOUND SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "High to low")]
+[INFO ] 2022-12-13 19:58:33.464 [main] Log - CLICK ON SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "High to low")]
+[INFO ] 2022-12-13 19:58:33.471 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 19:58:33.472 [main] Log - BREADCRUMB CONTAINED MEN LABEL {MEN} >>   
+[INFO ] 2022-12-13 19:58:33.478 [main] Log - VERIFY IF {ALL PANTS} IS EQUAL TO {All Pants}
+[INFO ] 2022-12-13 19:58:33.478 [main] Log - BREADCRUMB CONTAINED T-SHIRTS LABEL {ALL PANTS} >>   
+[INFO ] 2022-12-13 19:58:33.485 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 19:58:33.485 [main] Log - BREADCRUMB CONTAINED HEADING {MEN} >>   
+[INFO ] 2022-12-13 19:58:33.486 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-13 20:44:42.326 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:44:42.327 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:44:42.328 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-13 20:44:42.329 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-12-13 20:44:42.329 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-13 20:44:42.329 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-13 20:44:42.329 [main] Log - THE DESIGNATED BROWSER= firefox
+[INFO ] 2022-12-13 20:44:49.676 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-13 20:44:49.679 [main] Log - {men} CONTAINED {men}
+[INFO ] 2022-12-13 20:44:50.062 [main] Log - HOVERED SELECTOR= //li[@data-test= "men-navItem"]/a[div/span[contains(text(), "men")]]
+[INFO ] 2022-12-13 20:44:50.262 [main] Log - {all tops} CONTAINED {all tops}
+[INFO ] 2022-12-13 20:44:50.262 [main] Log - ABOUT TO CLICK ON ALL TOPS CATEGORY >>   
+[INFO ] 2022-12-13 20:44:50.279 [main] Log - FOUND SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "All Tops")][parent::div[parent::a[contains(@href, "/vn/en/men/tops/tops")]]]
+[INFO ] 2022-12-13 20:44:50.437 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "All Tops")][parent::div[parent::a[contains(@href, "/vn/en/men/tops/tops")]]]
+[INFO ] 2022-12-13 20:44:50.439 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-13 20:44:53.532 [main] Log - FOUND SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 20:44:53.565 [main] Log - CLICK ON SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 20:44:53.571 [main] Log - FOUND SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "Low to high")]
+[INFO ] 2022-12-13 20:44:53.685 [main] Log - CLICK ON SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "Low to high")]
+[INFO ] 2022-12-13 20:44:53.700 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 20:44:53.702 [main] Log - BREADCRUMB CONTAINED MEN LABEL {MEN} >>   
+[INFO ] 2022-12-13 20:44:53.707 [main] Log - VERIFY IF {ALL TOPS} IS EQUAL TO {All Tops}
+[INFO ] 2022-12-13 20:44:53.707 [main] Log - BREADCRUMB CONTAINED T-SHIRTS LABEL {ALL TOPS} >>   
+[INFO ] 2022-12-13 20:44:53.713 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 20:44:53.713 [main] Log - BREADCRUMB CONTAINED HEADING {MEN} >>   
+[INFO ] 2022-12-13 20:44:53.713 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-13 20:53:29.856 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:53:29.857 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-13 20:53:29.858 [main] Log - THE DESIGNATED BROWSER= firefox
+[INFO ] 2022-12-13 20:53:36.473 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-13 20:53:36.476 [main] Log - {men} CONTAINED {men}
+[INFO ] 2022-12-13 20:53:37.023 [main] Log - HOVERED SELECTOR= //li[@data-test= "men-navItem"]/a[div/span[contains(text(), "men")]]
+[INFO ] 2022-12-13 20:53:37.168 [main] Log - ABOUT TO CLICK ON T-SHIRTS CATEGORY >>   
+[INFO ] 2022-12-13 20:53:37.213 [main] Log - FOUND SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "T-shirts")][parent::div[parent::a[contains(@href, "/vn/en/men/tops/t-shirts")]]]
+[INFO ] 2022-12-13 20:53:37.374 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "global-nav")])[3]//span[contains(text(), "T-shirts")][parent::div[parent::a[contains(@href, "/vn/en/men/tops/t-shirts")]]]
+[INFO ] 2022-12-13 20:53:37.375 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-13 20:53:40.418 [main] Log - FOUND SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 20:53:40.469 [main] Log - CLICK ON SELECTOR= //div[@type= "button" and @role][span[contains(text(), "Featured")]]
+[INFO ] 2022-12-13 20:53:40.479 [main] Log - FOUND SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "Low to high")]
+[INFO ] 2022-12-13 20:53:40.571 [main] Log - CLICK ON SELECTOR= //ul[@role= "listbox"]//li[contains(text(), "Low to high")]
+[INFO ] 2022-12-13 20:53:40.578 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 20:53:40.580 [main] Log - BREADCRUMB CONTAINED MEN LABEL {MEN} >>   
+[INFO ] 2022-12-13 20:53:40.586 [main] Log - VERIFY IF {T-SHIRTS} IS EQUAL TO {T-shirts}
+[INFO ] 2022-12-13 20:53:40.586 [main] Log - BREADCRUMB CONTAINED T-SHIRTS LABEL {T-shirts} >>   
+[INFO ] 2022-12-13 20:53:40.592 [main] Log - VERIFY IF {MEN} IS EQUAL TO {MEN}
+[INFO ] 2022-12-13 20:53:40.592 [main] Log - BREADCRUMB CONTAINED HEADING {MEN} >>   
+[INFO ] 2022-12-13 20:53:40.592 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
