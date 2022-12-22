@@ -1,0 +1,13 @@
+[INFO ] 2022-12-15 18:11:49.382 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-15 18:11:49.384 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: firefox
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-15 18:11:49.386 [main] Log - THE DESIGNATED BROWSER= firefox

@@ -9,6 +9,7 @@ import com.qa.uniqlo.utilities.logs.Log;
 
 import static com.qa.uniqlo.generalKeys.Constants.*;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class SearchingPage {
@@ -30,17 +31,44 @@ public class SearchingPage {
         this.page= page;
     }
 
+    // this method is to get product name that is gonna be wished
+    // listProductNameText is to get all product name being present on the Search Page
+    // listWishedProductName is to get the wished product name from listProductNameText
+    public ProductInformation getWishedProductName(int quantityOfWishedProduct) throws Exception {
+        ProductInformation wishedProductModel= new ProductInformation();
+        commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT1000MS);
+        Locator listProductName= page.locator(LBL_PRODUCT_NAME_CHILD);
+        List<String> listProductNameText;
+        List<String> listWishedProductName = new ArrayList<String>();
+        commonHandler.waitForPageToLoad(DOM_CONTENT_LOADED_STATE, TIMEOUT1000MS);
+        listProductNameText= listProductName.allTextContents();
+        if (quantityOfWishedProduct > 0 != false) {
+            for (int i=0; i< quantityOfWishedProduct; i++) {
+                listWishedProductName.add(listProductNameText.get(i));
+            }
+        }
+        System.out.println("\r");
+        Log.info("LIST OF WISHED PRODUCT NAME= "+ listWishedProductName);
+        System.out.println("\r");
+        for (String wishedProductName: listWishedProductName) {
+            Log.info("WISHED PRODUCT NAME= "+ wishedProductName);
+        }
+        wishedProductModel.setListOfProductName(listWishedProductName);
+        return wishedProductModel;
+    }
+
     public void wishProduct(int quantityOfWishedProduct) throws Exception {
         if (quantityOfWishedProduct > 0 != false) {
-            if (quantityOfWishedProduct == 1 != false) {
+            if (quantityOfWishedProduct == 1) {
                 Log.info("WISH 1 PRODUCT >>    ");
             }
             else {
                 Log.info("WISH "+ quantityOfWishedProduct+ " PRODUCTS >>    ");
             }
             for (int i=1; i<= quantityOfWishedProduct; i++) {
-                commonHandler.waitForPageToLoad(LOAD_STATE, TIMEOUT2000MS);
-                commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]").toString());
+                commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+                commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]"));
+                commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
             }
         }
     }
@@ -53,14 +81,6 @@ public class SearchingPage {
 
     public void verifyTestCaseFailed() {
         verifyNoResultIsPresent();
-    }
-
-//    public void verifyTestCasePassedWithEasyPaging(final String searchKey) throws Exception {
-//        getProductNameHavingEasyPaging();
-//    }
-
-    public void verifyTestCasePassedWithPagings(final String searchKey) throws Exception {
-
     }
 
     public void verifySearchResultLabel(final String searchKey) {
@@ -82,7 +102,7 @@ public class SearchingPage {
     public void verifyProductName(ProductInformation searchingModel, final String searchKey) {
         List<String> listProductName= searchingModel.getListOfProductName();
         System.out.println("\r");
-        Log.info("LIST PRODUCT NAME= "+ listProductName);
+        Log.info("LIST OF PRODUCT NAME= "+ listProductName);
         System.out.println("\r");
         for (String productName: listProductName) {
             if (commonHandler.verifyIfStringIsContained(productName, searchKey)) {

@@ -11,6 +11,8 @@ import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.testng.Assert;
 
+import java.util.List;
+
 import static com.microsoft.playwright.options.WaitForSelectorState.VISIBLE;
 
 public class CommonHandling extends AbstractTest {
@@ -104,6 +106,22 @@ public class CommonHandling extends AbstractTest {
         Log.info("VERIFY IF "+ expSelector+ " IS VISIBLE >>  ");
         Locator.IsVisibleOptions isVisibleOptions= new Locator.IsVisibleOptions();
         return AbstractTest.page.locator(expSelector).isVisible(isVisibleOptions.setTimeout(Double.valueOf(Constants.MAXTIMEOUT)));
+    }
+
+    @Contract(pure = true)
+    public static boolean verifyIfListIsEqual(@NotNull List<String> expList, List<String> actList) {
+        boolean isEqual;
+        Log.info("VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   ");
+        if (expList.equals(actList)) {
+            isEqual = true;
+            Log.info("SUCCESSFULLY VERIFIED: EXP LIST IS EQUAL TO ACT LIST >>    ");
+        }
+        else {
+            isEqual = false;
+            Log.error("UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    ");
+            Assert.fail("UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    ");
+        }
+        return isEqual;
     }
 
     public static void scrollToElement(@NotNull String expSelector) {

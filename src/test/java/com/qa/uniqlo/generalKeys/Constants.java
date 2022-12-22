@@ -13,6 +13,7 @@ public class Constants {
     public static final String USERNAME= "Maxwell";
     public static final int TIMEOUT1000MS= 1000;
     public static final int TIMEOUT2000MS= 2000;
+    public static final int TIMEOUT2500MS= 2500;
     public static final int TIMEOUT3000MS= 3000;
     public static final int TIMEOUT5000MS= 5000;
     public static final int MAXTIMEOUT= 30000;
