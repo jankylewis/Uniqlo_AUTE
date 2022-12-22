@@ -49,7 +49,7 @@ public class SearchingTest extends AbstractTest {
     public void searchingByGuestTest_03() throws Exception {
         setUpMethod();
         /* Step: prepare data */
-        final String searchKey= "l";
+        final String searchKey= "ba";
         /* Step: do searching */
         homePage.doSearch(searchKey);
         /* Step: verify the product name whether containing searchKey */

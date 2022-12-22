@@ -6,6 +6,8 @@ import com.microsoft.playwright.options.LoadState;
 import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
+import org.jetbrains.annotations.Contract;
+import org.jetbrains.annotations.NotNull;
 
 import static com.qa.uniqlo.generalKeys.Constants.*;
 
@@ -57,6 +59,7 @@ public class SearchingPage {
         return wishedProductModel;
     }
 
+    /* This method is to wish product by clicking on Heart icon on Searching Page */
     public void wishProduct(int quantityOfWishedProduct) throws Exception {
         if (quantityOfWishedProduct > 0 != false) {
             if (quantityOfWishedProduct == 1) {
@@ -65,10 +68,20 @@ public class SearchingPage {
             else {
                 Log.info("WISH "+ quantityOfWishedProduct+ " PRODUCTS >>    ");
             }
-            for (int i=1; i<= quantityOfWishedProduct; i++) {
-                commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
-                commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]"));
-                commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+            if (quantityOfWishedProduct <= 24) {
+                for (int i=1; i<= quantityOfWishedProduct; i++) {
+                    commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+                    commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]"));
+                    commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+                }
+            }
+            else {
+                expandAllProductOnPage();
+                for (int i=1; i<= quantityOfWishedProduct; i++) {
+                    commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+                    commonHandler.clickOnElement((CTA_WISH+ "["+ i + "]"));
+                    commonHandler.waitForPageToLoad(LOAD_STATE, MINTIMEOUT);
+                }
             }
         }
     }
@@ -99,7 +112,7 @@ public class SearchingPage {
         }
     }
 
-    public void verifyProductName(ProductInformation searchingModel, final String searchKey) {
+    public void verifyProductName(@NotNull ProductInformation searchingModel, final String searchKey) {
         List<String> listProductName= searchingModel.getListOfProductName();
         System.out.println("\r");
         Log.info("LIST OF PRODUCT NAME= "+ listProductName);
@@ -111,8 +124,8 @@ public class SearchingPage {
         }
     }
 
-    public ProductInformation getProductName() throws Exception {
-        ProductInformation searchingModel= new ProductInformation();
+    // this method is to click on VIEW MORE CTA multiple times to expand all the product being present on Searching Page
+    public void expandAllProductOnPage() throws Exception {
         int loadMoreCounter= 0;
         commonHandler.waitForPageToLoad(NETWORK_IDLE_STATE, 0);
         while (!commonHandler.verifyIfStringIsEqualized("0", "1")) {
@@ -129,10 +142,26 @@ public class SearchingPage {
                 break;
             }
         }
+    }
+
+    public ProductInformation getProductName() throws Exception {
+        ProductInformation searchingModel= new ProductInformation();
+        expandAllProductOnPage();
         Locator listProductName= page.locator(LBL_PRODUCT_NAME_CHILD);
         int productNameCounter= listProductName.count();
         Log.info("TOTAL PRODUCT COUNTED= "+ productNameCounter);
         searchingModel.setListOfProductName(listProductName.allTextContents());
         return searchingModel;
+    }
+
+    @Contract(pure = true)
+    private @NotNull String generateProductImgSelector(String productName) {
+        String IMG_PRODUCT= "//div[contains(@class, \"product-card\")]/div[contains(@class, \"info\")]//h2[contains(text(), '"+ productName+ "')]";
+        return IMG_PRODUCT;
+    }
+
+    // the more precise the product name is provided, the more accurate the selector
+    public void clickOnProductImg(String productName) {
+        commonHandler.clickOnElement(generateProductImgSelector(productName));
     }
 }

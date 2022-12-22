@@ -1,8 +1,5 @@
 package com.qa.uniqlo.base;
 
-import com.beust.ah.A;
-import com.microsoft.playwright.Browser;
-import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Page;
 import com.qa.uniqlo.pages.*;
 import com.qa.uniqlo.factory.PlaywrightFactory;
@@ -29,7 +26,10 @@ public class AbstractTest {
     protected BaseProductPage baseProductPage;
     protected AllTopsPage allTopsPage;
     protected AllPantsPage allPantsPage;
-    protected WishPage wishPage;
+    protected WishingPage wishingPage;
+    protected DetailedProductPage detailedProductPage;
+    protected ShoppingCartPage shoppingCartPage;
+    protected TransactionCheckoutPage transactionCheckoutPage;
     @BeforeClass(enabled = false)
     public void setUpTestCase() {
         playwrightFactory= new PlaywrightFactory();
@@ -46,8 +46,10 @@ public class AbstractTest {
         allTopsPage= new AllTopsPage(page);
         allPantsPage= new AllPantsPage(page);
         baseProductPage= new BaseProductPage(page);
-        wishPage= new WishPage(page);
-
+        wishingPage= new WishingPage(page);
+        detailedProductPage= new DetailedProductPage(page);
+        shoppingCartPage= new ShoppingCartPage(page);
+        transactionCheckoutPage= new TransactionCheckoutPage(page);
     }
     @AfterClass(enabled = false)
     public void tearDownTestCase() {

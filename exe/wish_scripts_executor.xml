@@ -10,7 +10,8 @@
         <classes>
             <class name="com.qa.uniqlo.testCases.WishingTest">
                 <methods>
-                    <include name="wishingTest_01"/>
+<!--                    <include name="wishingTest_01"/>-->
+                    <include name="wishingTest_02"/>
                 </methods>
             </class>
         </classes>

@@ -1338,3 +1338,1647 @@
 [INFO ] 2022-12-22 11:43:00.342 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
 [INFO ] 2022-12-22 11:43:00.345 [main] Log - DELETED ALL COOKIES >>
 [WARN ] 2022-12-22 11:43:00.380 [main] Log - REPELLED BROWSER >>
+[INFO ] 2022-12-22 11:45:46.193 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:45:46.196 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 11:45:46.197 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 11:45:51.249 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 11:45:51.275 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 11:45:51.749 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 11:45:51.750 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 11:45:51.750 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 11:45:52.295 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 11:45:52.451 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 11:45:52.460 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 11:45:52.524 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 11:45:52.530 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 11:45:53.417 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 11:45:53.418 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 11:45:53.418 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 11:45:53.802 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 11:45:53.846 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 11:45:53.936 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 11:45:53.936 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 11:45:53.937 [main] Log - WISH 10 PRODUCTS >>    
+[INFO ] 2022-12-22 11:45:53.938 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:55.284 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 11:45:55.416 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 11:45:55.417 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:55.920 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:56.432 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 11:45:56.517 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 11:45:56.517 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:57.022 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:57.548 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 11:45:57.656 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 11:45:57.656 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:58.158 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:58.688 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 11:45:58.789 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 11:45:58.789 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:59.291 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:45:59.814 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 11:45:59.946 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 11:45:59.946 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:00.451 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:00.971 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 11:46:01.084 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 11:46:01.084 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:01.588 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:02.106 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 11:46:02.211 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 11:46:02.211 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:02.716 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:03.234 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 11:46:03.359 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 11:46:03.360 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:03.865 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:04.384 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 11:46:04.502 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 11:46:04.502 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:05.003 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:05.521 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 11:46:05.648 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 11:46:05.648 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:06.155 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:07.166 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:08.171 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 11:46:09.187 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater]
+[INFO ] 2022-12-22 11:46:09.187 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:09.188 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 11:46:09.194 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 11:46:09.273 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 11:46:09.273 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:12.279 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:13.284 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 11:46:14.301 [main] Log - LIST OF WISHED PRODUCT NAME= [Light Souffle Yarn Mock Neck Sweater, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Pullover Hoodie, Crew Neck Long Sleeve Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Sweatshirt, HEATTECH Pile Lined Sweat Full-Zip Hoodie]
+[INFO ] 2022-12-22 11:46:14.301 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 11:46:14.301 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:14.301 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:46:14.302 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 11:46:14.303 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 11:46:14.304 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater]
+[INFO ] 2022-12-22 11:46:14.304 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater]
+[INFO ] 2022-12-22 11:46:14.304 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[INFO ] 2022-12-22 11:46:14.304 [main] Log - SUCCESSFULLY VERIFIED: EXP LIST IS EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 11:46:14.304 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:17.319 [main] Log - WISHED PRODUCT COUNTER = 10
+[INFO ] 2022-12-22 11:46:17.320 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:17.837 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 11:46:17.891 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 11:46:17.892 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:18.412 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 11:46:18.453 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 11:46:18.453 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:18.971 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 11:46:19.029 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 11:46:19.029 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:19.539 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 11:46:19.587 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 11:46:19.587 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:20.101 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 11:46:20.161 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 11:46:20.161 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:20.680 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 11:46:20.745 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 11:46:20.745 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:21.267 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 11:46:21.314 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 11:46:21.314 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:21.836 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 11:46:21.897 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 11:46:21.897 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:22.418 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 11:46:22.478 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 11:46:22.478 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:46:22.996 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 11:46:23.048 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 11:46:23.053 [main] Log - DELETED ALL COOKIES >>
+[WARN ] 2022-12-22 11:46:23.094 [main] Log - REPELLED BROWSER >>
+[INFO ] 2022-12-22 11:46:46.328 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:46:46.329 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:46:46.330 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 11:46:46.330 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 11:46:46.330 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 11:46:46.330 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 11:46:46.330 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 11:48:49.559 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 11:48:49.560 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 11:48:49.561 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 11:48:49.561 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 11:48:49.561 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 11:48:49.561 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 11:48:55.081 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 11:48:55.397 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 11:48:56.323 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 11:48:56.323 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 11:48:56.323 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 11:48:56.664 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 11:48:56.869 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 11:48:56.877 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 11:48:56.940 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 11:48:56.946 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 11:48:57.749 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 11:48:57.749 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 11:48:57.750 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 11:48:58.149 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 11:48:58.211 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 11:48:58.767 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 11:48:58.767 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 11:48:58.767 [main] Log - WISH 23 PRODUCTS >>    
+[INFO ] 2022-12-22 11:48:58.767 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:01.007 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 11:49:01.106 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 11:49:01.106 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:01.608 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:02.129 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 11:49:02.241 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 11:49:02.241 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:02.747 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:03.264 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 11:49:03.377 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 11:49:03.377 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:03.880 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:04.396 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 11:49:04.503 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 11:49:04.503 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:05.008 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:05.533 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 11:49:05.650 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 11:49:05.650 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:06.154 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:06.667 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 11:49:06.756 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 11:49:06.756 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:07.262 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:07.783 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 11:49:07.893 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 11:49:07.893 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:08.396 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:08.914 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 11:49:09.026 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 11:49:09.026 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:09.529 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:10.058 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 11:49:10.191 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 11:49:10.191 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:10.696 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:11.210 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 11:49:11.328 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 11:49:11.328 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:11.831 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:12.349 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 11:49:12.462 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 11:49:12.462 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:12.968 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:13.497 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 11:49:13.603 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 11:49:13.603 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:14.109 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:14.628 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 11:49:14.751 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 11:49:14.752 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:15.255 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:15.773 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 11:49:15.898 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 11:49:15.898 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:16.403 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:16.927 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 11:49:17.053 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 11:49:17.053 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:17.555 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:18.074 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[16]
+[INFO ] 2022-12-22 11:49:18.198 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[16]
+[INFO ] 2022-12-22 11:49:18.198 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:18.704 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:19.223 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[17]
+[INFO ] 2022-12-22 11:49:19.327 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[17]
+[INFO ] 2022-12-22 11:49:19.328 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:19.833 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:20.350 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[18]
+[INFO ] 2022-12-22 11:49:20.458 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[18]
+[INFO ] 2022-12-22 11:49:20.458 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:20.963 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:21.475 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[19]
+[INFO ] 2022-12-22 11:49:21.600 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[19]
+[INFO ] 2022-12-22 11:49:21.600 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:22.105 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:22.623 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[20]
+[INFO ] 2022-12-22 11:49:22.747 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[20]
+[INFO ] 2022-12-22 11:49:22.747 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:23.253 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:23.769 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[21]
+[INFO ] 2022-12-22 11:49:23.877 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[21]
+[INFO ] 2022-12-22 11:49:23.877 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:24.383 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:24.910 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[22]
+[INFO ] 2022-12-22 11:49:25.018 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[22]
+[INFO ] 2022-12-22 11:49:25.018 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:25.524 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:26.043 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[23]
+[INFO ] 2022-12-22 11:49:26.161 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[23]
+[INFO ] 2022-12-22 11:49:26.161 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:26.666 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:27.679 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:28.683 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 11:49:29.704 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants]
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 11:49:29.705 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Washable Cotton V Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Fair Isle Crew Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Cable Crew Neck Long Sleeve Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Half Sleeve Crew Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Popcorn Knitted Long Sleeve V Neck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Ribbed Turtleneck Sweater
+[INFO ] 2022-12-22 11:49:29.706 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 11:49:29.714 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 11:49:29.799 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 11:49:29.799 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:32.805 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 11:49:33.811 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 11:49:34.830 [main] Log - LIST OF WISHED PRODUCT NAME= [Sweat Pants, Extra Fine Merino Ribbed Turtleneck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, Fair Isle Crew Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Washable Cotton V Neck Sweater, Cashmere Striped Turtleneck Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater]
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Ribbed Turtleneck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Popcorn Knitted Long Sleeve V Neck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Half Sleeve Crew Neck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Cable Crew Neck Long Sleeve Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Fair Isle Crew Neck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Washable Cotton V Neck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants]
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants]
+[INFO ] 2022-12-22 11:49:34.831 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[ERROR] 2022-12-22 11:49:34.832 [main] Log - UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 12:02:28.299 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:02:28.300 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:02:28.301 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 12:02:28.301 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 12:02:28.301 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 12:02:28.301 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 12:02:34.393 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 12:02:34.402 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:02:34.935 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 12:02:35.020 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 12:02:35.485 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 12:02:35.486 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 12:02:35.739 [main] Log - SEARCH RESULT CONTENT= ba
+[INFO ] 2022-12-22 12:02:35.739 [main] Log - SEARCH RESULT LABEL CONTAINED ba
+[INFO ] 2022-12-22 12:02:35.739 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 12:02:44.581 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 12:02:44.603 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 12:02:44.603 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 12:02:44.616 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 12:02:44.682 [main] Log - FOUND SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 12:02:44.788 [main] Log - CLICK ON SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 12:02:44.788 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 1
+[INFO ] 2022-12-22 12:02:44.788 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:02:49.795 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 12:02:49.807 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 12:02:49.810 [main] Log - TOTAL PRODUCT COUNTED= 27
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - LIST OF PRODUCT NAME= [Baggy Jeans, Baggy Jeans, Baggy Jeans, Cotton Baggy Pants, High Rise Briefs (Basic), Hiphugger (Basic), Popcorn Knitted Balaclava, Round Mini Shoulder Bag, Round Mini Shoulder Bag, Faux Leather Wallet Mini Shoulder Bag, Faux Leather Bucket Shoulder Bag, FAUX LEATHER MINI FLAP SHOULDER BAG, Furry Mini Shoulder Bag, Faux Leather Mini Tool Shoulder Bag, Faux Leather 2 WAY Boston Bag, Comfeel Touch Ballet Shoes, Gift Bag, Balmacaan Coat, Balmacaan Coat, Functional Backpack, Nylon 2WAY Bag, Mini Drawstring Bag, Mini Shoulder Bag, Eco-Friendly Bag, GIRLS Baggy Jeans, GIRLS Baggy Jeans, AIRism Cotton Balloon Shorts]
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.821 [main] Log - {Cotton Baggy Pants} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {High Rise Briefs (Basic)} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Hiphugger (Basic)} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Popcorn Knitted Balaclava} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Round Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Round Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Faux Leather Wallet Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {Faux Leather Bucket Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - {FAUX LEATHER MINI FLAP SHOULDER BAG} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.822 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Furry Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Faux Leather Mini Tool Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Faux Leather 2 WAY Boston Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Comfeel Touch Ballet Shoes} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Gift Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Balmacaan Coat} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Balmacaan Coat} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - {Functional Backpack} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.823 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {Nylon 2WAY Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {Mini Drawstring Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {Eco-Friendly Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {GIRLS Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {GIRLS Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - {AIRism Cotton Balloon Shorts} CONTAINED {ba}
+[INFO ] 2022-12-22 12:02:49.824 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:03:58.490 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:03:58.492 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:03:58.493 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 12:03:58.493 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 12:03:58.493 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 12:03:58.493 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 12:04:12.593 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 12:04:12.603 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:04:13.069 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 12:04:13.161 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 12:04:13.578 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 12:04:13.580 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 12:04:14.327 [main] Log - SEARCH RESULT CONTENT= ba
+[INFO ] 2022-12-22 12:04:14.327 [main] Log - SEARCH RESULT LABEL CONTAINED ba
+[INFO ] 2022-12-22 12:04:14.327 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 12:04:21.200 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 12:04:21.216 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 12:04:21.216 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 12:04:21.235 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 12:04:21.291 [main] Log - FOUND SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 12:04:21.380 [main] Log - CLICK ON SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 12:04:21.380 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 1
+[INFO ] 2022-12-22 12:04:21.380 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:04:26.382 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 12:04:26.395 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 12:04:26.407 [main] Log - TOTAL PRODUCT COUNTED= 27
+[INFO ] 2022-12-22 12:04:26.416 [main] Log - LIST OF PRODUCT NAME= [Baggy Jeans, Baggy Jeans, Baggy Jeans, Cotton Baggy Pants, High Rise Briefs (Basic), Hiphugger (Basic), Popcorn Knitted Balaclava, Round Mini Shoulder Bag, Round Mini Shoulder Bag, Faux Leather Wallet Mini Shoulder Bag, Faux Leather Bucket Shoulder Bag, FAUX LEATHER MINI FLAP SHOULDER BAG, Furry Mini Shoulder Bag, Faux Leather Mini Tool Shoulder Bag, Faux Leather 2 WAY Boston Bag, Comfeel Touch Ballet Shoes, Gift Bag, Balmacaan Coat, Balmacaan Coat, Functional Backpack, Nylon 2WAY Bag, Mini Drawstring Bag, Mini Shoulder Bag, Eco-Friendly Bag, GIRLS Baggy Jeans, GIRLS Baggy Jeans, AIRism Cotton Balloon Shorts]
+[INFO ] 2022-12-22 12:04:26.416 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.416 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Cotton Baggy Pants} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {High Rise Briefs (Basic)} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Hiphugger (Basic)} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Popcorn Knitted Balaclava} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - {Round Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.417 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Round Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Faux Leather Wallet Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Faux Leather Bucket Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {FAUX LEATHER MINI FLAP SHOULDER BAG} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Furry Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Faux Leather Mini Tool Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Faux Leather 2 WAY Boston Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Comfeel Touch Ballet Shoes} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Gift Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - {Balmacaan Coat} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.418 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Balmacaan Coat} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Functional Backpack} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Nylon 2WAY Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Mini Drawstring Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Mini Shoulder Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {Eco-Friendly Bag} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {GIRLS Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {GIRLS Baggy Jeans} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - {AIRism Cotton Balloon Shorts} CONTAINED {ba}
+[INFO ] 2022-12-22 12:04:26.419 [main] Log - SUCCESSFUL VERIFIED: PRODUCT NAME CONTAINED THE KEY: ba
+[INFO ] 2022-12-22 12:16:25.196 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:16:25.197 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:16:25.198 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:16:25.199 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 12:16:25.199 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 12:16:25.199 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 12:16:25.199 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 12:16:43.085 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 12:16:43.127 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 12:16:43.556 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 12:16:43.556 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 12:16:43.556 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 12:16:43.961 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 12:16:44.138 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 12:16:44.144 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 12:16:44.213 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 12:16:44.219 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 12:16:45.436 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 12:16:45.437 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 12:16:45.437 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:16:45.799 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 12:16:45.892 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 12:16:45.982 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 12:16:45.982 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 12:16:45.982 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 12:16:45.983 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:48.294 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 12:16:48.461 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 12:16:48.462 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:48.967 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:49.496 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 12:16:49.600 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 12:16:49.600 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:50.106 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:50.619 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 12:16:50.732 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 12:16:50.732 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:51.238 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:51.757 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 12:16:51.859 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 12:16:51.859 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:52.364 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:52.883 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 12:16:53.001 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 12:16:53.001 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:53.506 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:54.024 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 12:16:54.126 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 12:16:54.126 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:54.632 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:55.154 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 12:16:55.261 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 12:16:55.261 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:55.765 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:56.282 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 12:16:56.397 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 12:16:56.397 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:56.902 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:57.419 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 12:16:57.538 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 12:16:57.538 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:58.042 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:58.558 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 12:16:58.685 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 12:16:58.685 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:59.191 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:16:59.711 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 12:16:59.827 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 12:16:59.827 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:17:00.330 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:17:00.870 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 12:17:57.055 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:17:57.056 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:17:57.056 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:17:57.056 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:17:57.056 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 12:17:57.057 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 12:18:02.208 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 12:18:02.534 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 12:18:03.033 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 12:18:03.033 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 12:18:03.033 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 12:18:03.558 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 12:18:03.730 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 12:18:03.736 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 12:18:03.803 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 12:18:03.807 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 12:18:05.001 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 12:18:05.002 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 12:18:05.002 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 12:18:05.420 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 12:18:05.501 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 12:18:05.607 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 12:18:05.607 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 12:18:05.607 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 12:18:05.608 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:06.299 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 12:18:06.437 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 12:18:06.437 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:06.941 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:07.470 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 12:18:07.569 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 12:18:07.570 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:08.075 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:08.593 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 12:18:08.720 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 12:18:08.720 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:09.224 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:09.748 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 12:18:09.854 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 12:18:09.854 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:10.359 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:10.876 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 12:18:11.012 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 12:18:11.012 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:11.517 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:12.037 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 12:18:12.156 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 12:18:12.156 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:12.657 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:13.175 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 12:18:13.280 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 12:18:13.280 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:13.782 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:14.300 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 12:18:14.416 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 12:18:14.416 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:14.921 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:15.460 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 12:18:15.592 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 12:18:15.592 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:16.093 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:16.616 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 12:18:16.728 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 12:18:16.728 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:17.233 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:17.756 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 12:18:17.860 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 12:18:17.860 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:18.365 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:18.881 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 12:18:18.995 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 12:18:18.995 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:19.500 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:20.019 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 12:18:20.144 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 12:18:20.144 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:20.649 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:21.174 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 12:18:21.282 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 12:18:21.282 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:21.787 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:22.303 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 12:18:22.414 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 12:18:22.414 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:22.921 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:23.931 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:24.937 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 12:18:25.959 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 12:18:25.960 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 12:18:25.967 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 12:18:26.047 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 12:18:26.047 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:29.053 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 12:18:30.058 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - LIST OF WISHED PRODUCT NAME= [Cashmere Striped Turtleneck Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, Extra Fine Merino Crew Neck Sweater, Light Souffle Yarn Mock Neck Sweater, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Pullover Hoodie, Crew Neck Long Sleeve Sweatshirt]
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 12:18:31.079 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 12:18:31.080 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[ERROR] 2022-12-22 12:18:31.080 [main] Log - UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:36:16.402 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:36:16.403 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 14:36:16.404 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 14:36:16.405 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 14:36:22.480 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 14:36:22.624 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:36:23.373 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:36:23.373 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 14:36:23.373 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 14:36:23.849 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 14:36:24.242 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:36:24.246 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 14:36:24.312 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:36:24.322 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:36:25.292 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:36:25.292 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 14:36:25.293 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:36:25.571 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 14:36:25.739 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 14:36:26.152 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 14:36:26.152 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 14:36:26.152 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 14:36:26.153 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:27.980 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:36:28.070 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:36:28.070 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:28.575 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:29.111 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:36:29.195 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:36:29.195 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:29.700 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:30.217 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:36:30.330 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:36:30.330 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:30.836 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:31.359 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:36:31.469 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:36:31.469 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:31.970 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:32.492 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:36:32.622 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:36:32.622 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:33.128 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:33.649 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:36:33.759 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:36:33.759 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:34.264 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:34.780 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:36:34.886 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:36:34.886 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:35.392 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:35.930 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:36:36.013 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:36:36.013 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:36.519 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:37.044 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:36:37.193 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:36:37.193 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:37.698 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:38.213 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:36:38.328 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:36:38.328 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:38.834 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:39.352 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:36:39.459 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:36:39.459 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:39.965 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:40.487 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:36:40.603 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:36:40.603 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:41.108 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:41.628 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:36:41.757 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:36:41.758 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:42.263 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:42.801 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:36:42.905 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:36:42.906 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:43.411 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:43.925 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:36:44.041 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:36:44.041 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:44.548 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:45.561 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:46.567 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:36:47.592 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:36:47.593 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:36:47.599 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:36:47.685 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:36:47.685 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:49.691 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:36:50.694 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:36:51.710 [main] Log - LIST OF WISHED PRODUCT NAME= []
+[INFO ] 2022-12-22 14:36:51.710 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:36:51.711 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = []
+[INFO ] 2022-12-22 14:36:51.711 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[ERROR] 2022-12-22 14:36:51.711 [main] Log - UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:37:03.452 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:37:03.453 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:37:03.453 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:37:03.453 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 14:37:03.454 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 14:37:08.301 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 14:37:08.333 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:37:09.067 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:37:09.068 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 14:37:09.068 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 14:37:09.303 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 14:37:09.456 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:37:09.462 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 14:37:09.519 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:37:09.523 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:37:10.443 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:37:10.444 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 14:37:10.444 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:37:10.726 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 14:37:10.856 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 14:37:11.298 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 14:37:11.298 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 14:37:11.298 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 14:37:11.298 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:11.861 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:37:11.961 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:37:11.962 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:12.467 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:12.981 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:37:13.066 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:37:13.066 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:13.569 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:14.079 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:37:14.191 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:37:14.192 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:14.694 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:15.220 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:37:15.319 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:37:15.320 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:15.825 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:16.339 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:37:16.475 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:37:16.475 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:16.980 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:17.501 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:37:17.612 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:37:17.612 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:18.117 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:18.638 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:37:18.761 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:37:18.761 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:19.267 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:19.784 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:37:19.918 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:37:19.918 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:20.423 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:20.955 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:37:21.064 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:37:21.064 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:21.570 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:22.088 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:37:22.213 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:37:22.213 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:22.718 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:23.246 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:37:23.359 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:37:23.359 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:23.864 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:24.387 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:37:24.490 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:37:24.490 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:24.995 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:25.517 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:37:25.650 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:37:25.651 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:26.156 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:26.677 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:37:26.796 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:37:26.796 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:27.302 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:27.820 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:37:27.926 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:37:27.926 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:28.434 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:29.446 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:30.452 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:37:31.474 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:37:31.474 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:37:31.475 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:37:31.482 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:37:31.565 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:37:31.565 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:33.571 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:37:34.578 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - LIST OF WISHED PRODUCT NAME= [Cashmere Striped Turtleneck Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, Extra Fine Merino Crew Neck Sweater, Light Souffle Yarn Mock Neck Sweater, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Pullover Hoodie, Crew Neck Long Sleeve Sweatshirt]
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:37:35.593 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:37:35.594 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:37:35.595 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[ERROR] 2022-12-22 14:37:35.595 [main] Log - UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:38:36.943 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:38:36.944 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:38:36.944 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:38:36.944 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:38:36.944 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:38:36.944 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 14:38:36.945 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 14:38:41.642 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 14:38:41.670 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:38:42.452 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:38:42.452 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 14:38:42.452 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 14:38:42.719 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 14:38:42.897 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:38:42.903 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 14:38:42.968 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:38:42.972 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:38:43.834 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:38:43.834 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 14:38:43.835 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:38:44.138 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 14:38:44.282 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 14:38:44.699 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 14:38:44.700 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 14:38:44.700 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 14:38:44.701 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:45.376 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:38:45.477 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:38:45.477 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:45.983 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:46.507 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:38:46.610 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:38:46.610 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:47.114 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:47.632 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:38:47.717 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:38:47.717 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:48.223 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:48.734 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:38:48.830 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:38:48.830 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:49.336 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:49.855 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:38:49.992 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:38:49.992 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:50.497 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:51.018 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:38:51.132 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:38:51.132 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:51.637 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:52.153 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:38:52.258 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:38:52.258 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:52.764 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:53.281 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:38:53.393 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:38:53.393 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:53.898 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:54.437 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:38:54.546 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:38:54.546 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:55.048 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:55.559 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:38:55.671 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:38:55.672 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:56.177 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:56.696 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:38:56.813 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:38:56.813 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:57.318 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:57.840 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:38:57.943 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:38:57.943 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:58.450 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:58.962 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:38:59.073 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:38:59.073 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:38:59.577 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:00.104 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:39:00.232 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:39:00.232 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:00.737 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:01.260 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:39:01.379 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:39:01.379 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:01.892 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:02.907 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:03.913 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:39:04.944 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:39:04.944 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:04.944 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:39:04.944 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:04.944 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:39:04.945 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:39:04.956 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:39:05.053 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:39:05.054 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:07.060 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:39:07.061 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:39:07.073 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:39:07.073 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:08.078 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:39:09.089 [main] Log - LIST OF WISHED PRODUCT NAME= []
+[INFO ] 2022-12-22 14:39:09.089 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:39:09.090 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = []
+[INFO ] 2022-12-22 14:39:09.090 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[ERROR] 2022-12-22 14:39:09.091 [main] Log - UNSUCCESSFULLY VERIFIED: EXP LIST IS NOT EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:39:19.458 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:39:19.459 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 14:39:19.460 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 14:39:24.954 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 14:39:25.369 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:39:25.834 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:39:25.834 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 14:39:25.834 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 14:39:26.612 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 14:39:26.844 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:39:26.850 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 14:39:26.921 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:39:26.924 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:39:28.273 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:39:28.274 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 14:39:28.274 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:39:28.691 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 14:39:28.835 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 14:39:28.938 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 14:39:28.939 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 14:39:28.939 [main] Log - WISH 15 PRODUCTS >>    
+[INFO ] 2022-12-22 14:39:28.939 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:29.671 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:39:29.836 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:39:29.836 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:30.342 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:30.853 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:39:30.945 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:39:30.945 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:31.451 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:31.982 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:39:32.092 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:39:32.092 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:32.594 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:33.124 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:39:33.239 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:39:33.239 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:33.745 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:34.271 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:39:34.385 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:39:34.385 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:34.891 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:35.409 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:39:35.531 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:39:35.531 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:36.036 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:36.557 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:39:36.663 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:39:36.663 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:37.168 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:37.685 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:39:37.795 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:39:37.795 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:38.300 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:38.824 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:39:38.951 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:39:38.951 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:39.457 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:39.977 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:39:40.090 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:39:40.098 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:40.604 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:41.123 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:39:41.245 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:39:41.245 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:41.748 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:42.269 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:39:42.377 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:39:42.377 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:42.882 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:43.398 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:39:43.515 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:39:43.515 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:44.020 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:44.542 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:39:44.661 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:39:44.662 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:45.167 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:45.686 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:39:45.799 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:39:45.799 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:46.308 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:47.323 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:48.329 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:39:49.346 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:39:49.347 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:39:49.352 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:39:49.449 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:39:49.450 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:51.456 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:39:51.457 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:39:51.466 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:39:51.466 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:39:51.480 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:39:51.545 [main] Log - FOUND SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:39:51.624 [main] Log - CLICK ON SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:39:51.624 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 1
+[INFO ] 2022-12-22 14:39:51.624 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:56.630 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:39:56.637 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:39:56.638 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:39:57.642 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:39:58.655 [main] Log - LIST OF WISHED PRODUCT NAME= [Cashmere Striped Turtleneck Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, Extra Fine Merino Crew Neck Sweater, Light Souffle Yarn Mock Neck Sweater, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Pullover Hoodie, Crew Neck Long Sleeve Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Sweatshirt, HEATTECH Pile Lined Sweat Full-Zip Hoodie]
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:39:58.656 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater]
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - SUCCESSFULLY VERIFIED: EXP LIST IS EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:39:58.657 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:01.669 [main] Log - WISHED PRODUCT COUNTER = 15
+[INFO ] 2022-12-22 14:40:01.669 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:40:01.670 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:40:01.672 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:40:01.673 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:02.185 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 14:40:02.282 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 14:40:02.282 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:02.803 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 14:40:02.859 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 14:40:02.859 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:03.377 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 14:40:03.430 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 14:40:03.430 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:03.945 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 14:40:03.992 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 14:40:03.992 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:04.516 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 14:40:04.569 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 14:40:04.569 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:05.088 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 14:40:05.141 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 14:40:05.142 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:05.666 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 14:40:05.719 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 14:40:05.719 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:06.228 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 14:40:06.269 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 14:40:06.269 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:06.785 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 14:40:06.852 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 14:40:06.852 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:07.369 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 14:40:07.426 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 14:40:07.426 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:07.940 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[11]
+[INFO ] 2022-12-22 14:40:08.001 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[11]
+[INFO ] 2022-12-22 14:40:08.001 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:08.518 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[12]
+[INFO ] 2022-12-22 14:40:08.568 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[12]
+[INFO ] 2022-12-22 14:40:08.569 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:09.077 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[13]
+[INFO ] 2022-12-22 14:40:09.130 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[13]
+[INFO ] 2022-12-22 14:40:09.130 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:09.645 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[14]
+[INFO ] 2022-12-22 14:40:09.690 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[14]
+[INFO ] 2022-12-22 14:40:09.690 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:40:10.203 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[15]
+[INFO ] 2022-12-22 14:40:10.267 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[15]
+[INFO ] 2022-12-22 14:40:10.274 [main] Log - DELETED ALL COOKIES >>
+[WARN ] 2022-12-22 14:40:10.333 [main] Log - REPELLED BROWSER >>
+[INFO ] 2022-12-22 14:46:35.211 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:46:35.212 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:46:35.212 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - NORMALIZED STR: Mac OS X
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - {mac os x} CONTAINED {mac os x}
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - NORMALIZED STR: safari
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - NORMALIZED STR: false
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - NORMALIZED STR: https://www.uniqlo.com/vn/en/
+[INFO ] 2022-12-22 14:46:35.213 [main] Log - THE DESIGNATED BROWSER= safari
+[INFO ] 2022-12-22 14:46:41.216 [main] Log - TRIGGER BROWSER >>
+[INFO ] 2022-12-22 14:46:41.640 [main] Log - FOUND SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:46:42.568 [main] Log - CLICK ON SELECTOR= //a[@title= "Login"]/span[@aria-label= "Login"]
+[INFO ] 2022-12-22 14:46:42.568 [main] Log - CLICKED ON LOGIN CTA AT HOME PAGE >>
+[INFO ] 2022-12-22 14:46:42.568 [main] Log - NORMALIZED STR: perfect02092k@gmail.com
+[INFO ] 2022-12-22 14:46:42.978 [main] Log - FOUND SELECTOR= //input[@type= "email" and @name= "login_id"]
+[INFO ] 2022-12-22 14:46:43.260 [main] Log - INPUTTED perfect02092k@gmail.com SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:46:43.266 [main] Log - FOUND SELECTOR= //input[@type= "password" and @name= "password"]
+[INFO ] 2022-12-22 14:46:43.326 [main] Log - INPUTTED Tqvinh02092000 SUCCESSFULLY >>
+[INFO ] 2022-12-22 14:46:43.329 [main] Log - FOUND SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:46:44.347 [main] Log - CLICK ON SELECTOR= //a[@data-test= "login-button"]
+[INFO ] 2022-12-22 14:46:44.347 [main] Log - CLICKED ON LOGIN CTA AT LOGIN PAGE >>
+[INFO ] 2022-12-22 14:46:44.348 [main] Log - GOT PROPERTIES FILE >>
+[INFO ] 2022-12-22 14:46:44.750 [main] Log - NAVIGATED TO HOME >>   
+[INFO ] 2022-12-22 14:46:44.846 [main] Log - FOUND SELECTOR= //input[@id= "searchInput"]
+[INFO ] 2022-12-22 14:46:45.414 [main] Log - PRESSED ENTER >>
+[INFO ] 2022-12-22 14:46:45.414 [main] Log - CONDUCTED SEARCH >>
+[INFO ] 2022-12-22 14:46:45.415 [main] Log - WISH 30 PRODUCTS >>    
+[INFO ] 2022-12-22 14:46:45.415 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:46:49.884 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:46:49.901 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:46:49.901 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:46:49.913 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:46:49.961 [main] Log - FOUND SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:46:50.053 [main] Log - CLICK ON SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:46:50.054 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 1
+[INFO ] 2022-12-22 14:46:50.054 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:46:55.060 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:46:55.071 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:46:55.071 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:46:55.078 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:46:55.133 [main] Log - FOUND SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:46:55.246 [main] Log - CLICK ON SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:46:55.246 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 2
+[INFO ] 2022-12-22 14:46:55.246 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:00.252 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:47:00.269 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:47:00.269 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:47:00.278 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:47:00.394 [main] Log - FOUND SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:00.528 [main] Log - CLICK ON SELECTOR= //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:00.528 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 3
+[INFO ] 2022-12-22 14:47:00.528 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:05.534 [main] Log - VERIFY IF //div[@data-test= "searchPageRoot"]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:47:05.544 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:47:05.544 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:06.062 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:47:06.316 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[1]
+[INFO ] 2022-12-22 14:47:06.316 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:06.821 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:07.339 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:47:07.539 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[2]
+[INFO ] 2022-12-22 14:47:07.539 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:08.044 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:08.567 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:47:08.768 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[3]
+[INFO ] 2022-12-22 14:47:08.768 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:09.271 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:09.788 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:47:10.002 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[4]
+[INFO ] 2022-12-22 14:47:10.002 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:10.505 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:11.027 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:47:11.232 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[5]
+[INFO ] 2022-12-22 14:47:11.233 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:11.738 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:12.263 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:47:12.454 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[6]
+[INFO ] 2022-12-22 14:47:12.454 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:12.958 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:13.481 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:47:13.669 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[7]
+[INFO ] 2022-12-22 14:47:13.669 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:14.175 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:14.693 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:47:14.898 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[8]
+[INFO ] 2022-12-22 14:47:14.898 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:15.404 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:15.922 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:47:16.123 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[9]
+[INFO ] 2022-12-22 14:47:16.123 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:16.625 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:17.144 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:47:17.323 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[10]
+[INFO ] 2022-12-22 14:47:17.323 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:17.826 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:18.344 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:47:18.526 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[11]
+[INFO ] 2022-12-22 14:47:18.526 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:19.031 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:19.549 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:47:19.745 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[12]
+[INFO ] 2022-12-22 14:47:19.746 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:20.248 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:20.764 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:47:20.998 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[13]
+[INFO ] 2022-12-22 14:47:20.998 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:21.504 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:22.021 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:47:22.203 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[14]
+[INFO ] 2022-12-22 14:47:22.203 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:22.708 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:23.228 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:47:23.426 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[15]
+[INFO ] 2022-12-22 14:47:23.426 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:23.931 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:24.449 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[16]
+[INFO ] 2022-12-22 14:47:24.647 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[16]
+[INFO ] 2022-12-22 14:47:24.648 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:25.152 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:25.667 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[17]
+[INFO ] 2022-12-22 14:47:25.859 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[17]
+[INFO ] 2022-12-22 14:47:25.859 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:26.362 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:26.881 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[18]
+[INFO ] 2022-12-22 14:47:27.085 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[18]
+[INFO ] 2022-12-22 14:47:27.085 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:27.590 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:28.106 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[19]
+[INFO ] 2022-12-22 14:47:28.303 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[19]
+[INFO ] 2022-12-22 14:47:28.303 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:28.809 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:29.338 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[20]
+[INFO ] 2022-12-22 14:47:29.518 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[20]
+[INFO ] 2022-12-22 14:47:29.518 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:30.023 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:30.552 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[21]
+[INFO ] 2022-12-22 14:47:30.755 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[21]
+[INFO ] 2022-12-22 14:47:30.755 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:31.261 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:31.778 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[22]
+[INFO ] 2022-12-22 14:47:31.997 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[22]
+[INFO ] 2022-12-22 14:47:31.997 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:32.499 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:33.019 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[23]
+[INFO ] 2022-12-22 14:47:33.228 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[23]
+[INFO ] 2022-12-22 14:47:33.228 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:33.730 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:34.249 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[24]
+[INFO ] 2022-12-22 14:47:34.429 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[24]
+[INFO ] 2022-12-22 14:47:34.429 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:34.933 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:35.449 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[25]
+[INFO ] 2022-12-22 14:47:35.651 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[25]
+[INFO ] 2022-12-22 14:47:35.651 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:36.154 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:36.672 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[26]
+[INFO ] 2022-12-22 14:47:36.875 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[26]
+[INFO ] 2022-12-22 14:47:36.875 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:37.380 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:37.909 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[27]
+[INFO ] 2022-12-22 14:47:38.082 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[27]
+[INFO ] 2022-12-22 14:47:38.082 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:38.586 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:39.102 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[28]
+[INFO ] 2022-12-22 14:47:39.306 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[28]
+[INFO ] 2022-12-22 14:47:39.307 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:39.807 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:40.323 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[29]
+[INFO ] 2022-12-22 14:47:40.540 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[29]
+[INFO ] 2022-12-22 14:47:40.540 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:41.044 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:41.562 [main] Log - FOUND SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[30]
+[INFO ] 2022-12-22 14:47:41.760 [main] Log - CLICK ON SELECTOR= (//div[@id and contains(@class, "fr-product-card default")]//button/span)[30]
+[INFO ] 2022-12-22 14:47:41.760 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:42.267 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:43.273 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:44.277 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - LIST OF WISHED PRODUCT NAME= [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants, HEATTECH Pile Lined Sweat Pants, Dry Sweat Tucked Tapered Pants, Sweat Pants, HEATTECH Pile Lined Sweat Full-Zip Hoodie, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt]
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:47:45.303 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Washable Cotton V Neck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Fair Isle Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= Cable Crew Neck Long Sleeve Sweater
+[INFO ] 2022-12-22 14:47:45.304 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Half Sleeve Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Popcorn Knitted Long Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Ribbed Turtleneck Sweater
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Pants
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Dry Sweat Tucked Tapered Pants
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:45.305 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:45.313 [main] Log - FOUND SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:47:45.424 [main] Log - CLICK ON SELECTOR= //a/span[@class= "fr-icon" and contains((@aria-label), "Wish list")]
+[INFO ] 2022-12-22 14:47:45.424 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:47.430 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:47:47.430 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:47:47.439 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:47:47.440 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:47:47.448 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:47:47.492 [main] Log - FOUND SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:47.557 [main] Log - CLICK ON SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:47.557 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 1
+[INFO ] 2022-12-22 14:47:47.557 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:52.566 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[INFO ] 2022-12-22 14:47:52.571 [main] Log - VIEW MORE CTA IS VISIBLE >>    
+[INFO ] 2022-12-22 14:47:52.571 [main] Log - TRYING TO FOCUS ON ELEMENT >>  
+[INFO ] 2022-12-22 14:47:52.578 [main] Log - TRYING TO SCROLL TO ELEMENT >>  
+[INFO ] 2022-12-22 14:47:52.625 [main] Log - FOUND SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:52.708 [main] Log - CLICK ON SELECTOR= //div[contains(@class, "load-more")]//span[contains(text(), "View more")]
+[INFO ] 2022-12-22 14:47:52.709 [main] Log - NUMBER OF CLICKING ON VIEW MORE CTA= 2
+[INFO ] 2022-12-22 14:47:52.709 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:57.714 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:47:57.721 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:47:57.721 [main] Log - {DOMCONTENTLOADED} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:47:58.727 [main] Log - {DOMCONTENTLOADED} CONTAINED {DOMCONTENTLOADED}
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - LIST OF WISHED PRODUCT NAME= [Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt, HEATTECH Pile Lined Sweat Full-Zip Hoodie, Sweat Pants, Dry Sweat Tucked Tapered Pants, HEATTECH Pile Lined Sweat Pants, Sweat Pants, Extra Fine Merino Ribbed Turtleneck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, Fair Isle Crew Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Washable Cotton V Neck Sweater, Cashmere Striped Turtleneck Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, Extra Fine Merino Crew Neck Sweater, Light Souffle Yarn Mock Neck Sweater, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Sweat Long Sleeve Pullover Hoodie, Crew Neck Long Sleeve Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Sweatshirt, HEATTECH Pile Lined Sweat Full-Zip Hoodie]
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - WISHED PRODUCT NAME= Disney Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:59.744 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Dry Sweat Tucked Tapered Pants
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Pants
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Sweat Pants
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Ribbed Turtleneck Sweater
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Popcorn Knitted Long Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Half Sleeve Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Cable Crew Neck Long Sleeve Sweater
+[INFO ] 2022-12-22 14:47:59.745 [main] Log - WISHED PRODUCT NAME= Fair Isle Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:59.750 [main] Log - WISHED PRODUCT NAME= WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER
+[INFO ] 2022-12-22 14:47:59.750 [main] Log - WISHED PRODUCT NAME= Washable Cotton V Neck Sweater
+[INFO ] 2022-12-22 14:47:59.750 [main] Log - WISHED PRODUCT NAME= Cashmere Striped Turtleneck Sweater
+[INFO ] 2022-12-22 14:47:59.751 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Long Sleeve Dolman Sweater
+[INFO ] 2022-12-22 14:47:59.752 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Volume Sleeve Sweater
+[INFO ] 2022-12-22 14:47:59.752 [main] Log - WISHED PRODUCT NAME= 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Extra Fine Merino Crew Neck Sweater
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Light Souffle Yarn Mock Neck Sweater
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Dry Sweat Cropped Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Sweat Long Sleeve Pullover Hoodie
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Crew Neck Long Sleeve Sweatshirt
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Disney Oversized Sweatshirt
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= Crew Neck Sweatshirt
+[INFO ] 2022-12-22 14:47:59.753 [main] Log - WISHED PRODUCT NAME= HEATTECH Pile Lined Sweat Full-Zip Hoodie
+[INFO ] 2022-12-22 14:47:59.754 [main] Log - EXPECTED LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants, HEATTECH Pile Lined Sweat Pants, Dry Sweat Tucked Tapered Pants, Sweat Pants, HEATTECH Pile Lined Sweat Full-Zip Hoodie, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt]
+[INFO ] 2022-12-22 14:47:59.754 [main] Log - ACTUAL LIST OF WISHED PRODUCT NAME = [HEATTECH Pile Lined Sweat Full-Zip Hoodie, Crew Neck Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Disney Oversized Sweatshirt, Crew Neck Long Sleeve Sweatshirt, Sweat Long Sleeve Pullover Hoodie, Sweat Long Sleeve Full-Zip Hoodie, Dry Sweat Cropped Long Sleeve Full-Zip Hoodie, Light Souffle Yarn Mock Neck Sweater, Extra Fine Merino Crew Neck Sweater, 3D Knit Cotton Blend 3/4 Sleeve V Neck Sweater, 3D Knit Cotton Volume Sleeve Sweater, 3D Knit Cotton Long Sleeve Dolman Sweater, Cashmere Striped Turtleneck Sweater, Washable Cotton V Neck Sweater, WOMEN SMOOTH COTTON LONG SLEEVE CREW NECK SWEATER, Fair Isle Crew Neck Sweater, Cable Crew Neck Long Sleeve Sweater, 3D Knit Cotton Half Sleeve Crew Neck Sweater, Popcorn Knitted Long Sleeve V Neck Sweater, Extra Fine Merino Ribbed Turtleneck Sweater, Sweat Pants, HEATTECH Pile Lined Sweat Pants, Dry Sweat Tucked Tapered Pants, Sweat Pants, HEATTECH Pile Lined Sweat Full-Zip Hoodie, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt, Disney Long Sleeve Sweatshirt]
+[INFO ] 2022-12-22 14:47:59.754 [main] Log - VERIFY IF THE EXP LIST IS EQUAL TO THE ACT LIST >>   
+[INFO ] 2022-12-22 14:47:59.754 [main] Log - SUCCESSFULLY VERIFIED: EXP LIST IS EQUAL TO ACT LIST >>    
+[INFO ] 2022-12-22 14:47:59.754 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:02.767 [main] Log - WISHED PRODUCT COUNTER = 30
+[INFO ] 2022-12-22 14:48:02.768 [main] Log - {NETWORKIDLE} CONTAINED {NETWORKIDLE}
+[INFO ] 2022-12-22 14:48:02.768 [main] Log - VERIFY IF //div[contains(@class, "load-more")]//span[contains(text(), "View more")] IS VISIBLE >>  
+[WARN ] 2022-12-22 14:48:02.771 [main] Log - VIEW MORE CTA IS NOT FOUND >>    
+[INFO ] 2022-12-22 14:48:02.772 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:03.288 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 14:48:03.367 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[1]
+[INFO ] 2022-12-22 14:48:03.367 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:03.883 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 14:48:03.942 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[2]
+[INFO ] 2022-12-22 14:48:03.942 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:04.461 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 14:48:04.515 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[3]
+[INFO ] 2022-12-22 14:48:04.515 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:05.023 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 14:48:05.063 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[4]
+[INFO ] 2022-12-22 14:48:05.064 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:05.577 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 14:48:05.628 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[5]
+[INFO ] 2022-12-22 14:48:05.628 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:06.143 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 14:48:06.185 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[6]
+[INFO ] 2022-12-22 14:48:06.185 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:06.696 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 14:48:06.742 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[7]
+[INFO ] 2022-12-22 14:48:06.742 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:07.255 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 14:48:07.305 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[8]
+[INFO ] 2022-12-22 14:48:07.305 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:07.813 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 14:48:07.850 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[9]
+[INFO ] 2022-12-22 14:48:07.850 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:08.362 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 14:48:08.402 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[10]
+[INFO ] 2022-12-22 14:48:08.403 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:08.911 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[11]
+[INFO ] 2022-12-22 14:48:08.949 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[11]
+[INFO ] 2022-12-22 14:48:08.949 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:09.459 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[12]
+[INFO ] 2022-12-22 14:48:09.501 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[12]
+[INFO ] 2022-12-22 14:48:09.502 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:10.017 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[13]
+[INFO ] 2022-12-22 14:48:10.080 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[13]
+[INFO ] 2022-12-22 14:48:10.080 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:10.595 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[14]
+[INFO ] 2022-12-22 14:48:10.681 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[14]
+[INFO ] 2022-12-22 14:48:10.681 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:11.201 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[15]
+[INFO ] 2022-12-22 14:48:11.264 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[15]
+[INFO ] 2022-12-22 14:48:11.264 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:11.769 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[16]
+[INFO ] 2022-12-22 14:48:11.822 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[16]
+[INFO ] 2022-12-22 14:48:11.822 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:12.336 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[17]
+[INFO ] 2022-12-22 14:48:12.391 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[17]
+[INFO ] 2022-12-22 14:48:12.391 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:12.904 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[18]
+[INFO ] 2022-12-22 14:48:12.945 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[18]
+[INFO ] 2022-12-22 14:48:12.945 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:13.456 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[19]
+[INFO ] 2022-12-22 14:48:13.513 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[19]
+[INFO ] 2022-12-22 14:48:13.513 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:14.024 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[20]
+[INFO ] 2022-12-22 14:48:14.065 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[20]
+[INFO ] 2022-12-22 14:48:14.065 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:14.577 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[21]
+[INFO ] 2022-12-22 14:48:14.613 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[21]
+[INFO ] 2022-12-22 14:48:14.613 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:15.129 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[22]
+[INFO ] 2022-12-22 14:48:15.172 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[22]
+[INFO ] 2022-12-22 14:48:15.172 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:15.685 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[23]
+[INFO ] 2022-12-22 14:48:15.731 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[23]
+[INFO ] 2022-12-22 14:48:15.731 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:16.249 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[24]
+[INFO ] 2022-12-22 14:48:16.281 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[24]
+[INFO ] 2022-12-22 14:48:16.281 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:16.793 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[25]
+[INFO ] 2022-12-22 14:48:16.840 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[25]
+[INFO ] 2022-12-22 14:48:16.840 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:17.352 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[26]
+[INFO ] 2022-12-22 14:48:17.401 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[26]
+[INFO ] 2022-12-22 14:48:17.402 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:17.915 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[27]
+[INFO ] 2022-12-22 14:48:17.947 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[27]
+[INFO ] 2022-12-22 14:48:17.947 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:18.457 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[28]
+[INFO ] 2022-12-22 14:48:18.505 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[28]
+[INFO ] 2022-12-22 14:48:18.505 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:19.012 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[29]
+[INFO ] 2022-12-22 14:48:19.050 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[29]
+[INFO ] 2022-12-22 14:48:19.050 [main] Log - {LOAD} CONTAINED {LOAD}
+[INFO ] 2022-12-22 14:48:19.560 [main] Log - FOUND SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[30]
+[INFO ] 2022-12-22 14:48:19.605 [main] Log - CLICK ON SELECTOR= (//div[contains(@class, "fr-product-image")]//button/span)[30]
+[INFO ] 2022-12-22 14:48:19.617 [main] Log - DELETED ALL COOKIES >>
+[WARN ] 2022-12-22 14:48:19.719 [main] Log - REPELLED BROWSER >>
