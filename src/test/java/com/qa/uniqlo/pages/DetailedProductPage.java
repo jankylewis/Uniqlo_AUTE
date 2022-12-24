@@ -10,6 +10,7 @@ import org.jetbrains.annotations.Nullable;
 
 public class DetailedProductPage {
 
+    //this page is to define actions and steps, verifications
     private CommonHandling commonHandling= new CommonHandling();
     private Page page;
     private String CTA_ADD_TO_CART= "//button[contains(text(), \"Add to cart\")]";

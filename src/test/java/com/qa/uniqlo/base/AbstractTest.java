@@ -3,6 +3,7 @@ package com.qa.uniqlo.base;
 import com.microsoft.playwright.Page;
 import com.qa.uniqlo.pages.*;
 import com.qa.uniqlo.factory.PlaywrightFactory;
+import com.qa.uniqlo.pages.shoppingCartPage.ShoppingCartPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllPantsPage;
 import com.qa.uniqlo.pages.specificProductCategoryPage.menPage.AllTopsPage;
