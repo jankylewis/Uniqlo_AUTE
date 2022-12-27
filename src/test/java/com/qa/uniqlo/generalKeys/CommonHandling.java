@@ -211,6 +211,12 @@ public class CommonHandling extends AbstractTest {
         AbstractTest.page.navigate(destination, new Page.NavigateOptions().setWaitUntil(Constants.WAIT_UNTIL_LOAD_STATE));
     }
 
+    @Contract(pure = true)
+    public static @NotNull String removeVndAbbreviation(@NotNull String expStr) {
+        String removedStr= expStr.replace(" VND", "");
+        return removedStr;
+    }
+
 
 
 
