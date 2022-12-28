@@ -18,6 +18,9 @@ public class DetailedProductPage {
     private String CTA_FIND_STOCK_IN_STORE;
     private String LBL_PRODUCT_PRICE= "(//div[contains(@class, \"product-price\")]//span[contains(@class, \"price-limited\")]//span/span)[1]";
     private String LBL_PRODUCT_NAME= "//div[contains(@data-test, \"product-name\")]//span";
+    private String CTA_VIEW_CART= "//button[contains(text(), \"View cart\")]//parent::a";
+    private String CTA_CONTINUE_SHOPPING= "//span[contains(text(), \"Continue shopping\")]//parent::a";
+    private String DDL_QUANTITY= "//div[contains(@data-test, \"quantity\")]";
 
     private String generateQuantitySelector(String desiredQuantity) {
         String DDI_QUANTITY= "//ul[contains(@data-test, \"quantity\")]/li[contains(text(), '"+ desiredQuantity + "')]";
@@ -39,14 +42,16 @@ public class DetailedProductPage {
         this.page= page;
     }
 
-    public ProductInformation processAddingToCart(String desiredColor, String desiredSize, String desiredQuantity) {
+    public ProductInformation processAddingToCart(String expProductName, String desiredColor, String desiredSize, String desiredQuantity) {
+        String actProductName= getProductName();
+        Float actProductPrice= getProductPrice();
+        verifyProductName(expProductName, actProductName);
         pickDesiredColor(desiredColor);
         pickDesiredSize(desiredSize);
         pickDesiredQuantity(desiredQuantity);
+        ProductInformation newProductModel= generateNewProductModel(actProductName, actProductPrice, desiredSize, desiredColor, desiredQuantity);
         clickOnAddToCartCTA();
-        String productName= getProductName();
-        Float productPrice= getProductPrice();
-        ProductInformation newProductModel= generateNewProductModel(productName, productPrice, desiredSize, desiredColor, desiredQuantity);
+        clickOnViewCartCTA();
         return newProductModel;
     }
 
@@ -60,6 +65,10 @@ public class DetailedProductPage {
         return productModel;
     }
 
+    public void verifyProductName(String expProductName, String actProductName) {
+        commonHandling.verifyIfStringIsEqual(expProductName, actProductName);
+    }
+
     @Contract(pure = true)
     private @Nullable String getProductName() {
         String productName= page.locator(LBL_PRODUCT_NAME).textContent();
@@ -69,11 +78,19 @@ public class DetailedProductPage {
     @Contract(pure = true)
     private @Nullable Float getProductPrice() {
         String productPrice = page.locator(LBL_PRODUCT_PRICE).textContent();
-        return Float.parseFloat(productPrice);
+        return Float.parseFloat(commonHandling.removeVndAbbreviation(productPrice));
     }
 
     private void clickOnAddToCartCTA() {
         commonHandling.clickOnElement(CTA_ADD_TO_CART);
+    }
+
+    private void clickOnViewCartCTA() {
+        commonHandling.clickOnElement(CTA_VIEW_CART);
+    }
+
+    private void clickOnContinueShoppingCTA() {
+        commonHandling.clickOnElement(CTA_CONTINUE_SHOPPING);
     }
 
     private void pickDesiredColor(String desiredColor) {
@@ -85,6 +102,7 @@ public class DetailedProductPage {
     }
 
     private void pickDesiredQuantity(String desiredQuantity) {
-        commonHandling.clickOnElement(generateSizeSelector(desiredQuantity));
+        commonHandling.clickOnElement(DDL_QUANTITY);
+        commonHandling.clickOnElement(generateQuantitySelector(desiredQuantity));
     }
 }

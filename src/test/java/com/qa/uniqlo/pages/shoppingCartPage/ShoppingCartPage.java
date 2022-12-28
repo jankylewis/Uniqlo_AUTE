@@ -27,51 +27,89 @@ public class ShoppingCartPage {
     private String CTA_CONTINUE_SHOPPING;
     private String CTA_COUPON;
     private String CTA_GIFT_OPTION;
+    private String CTA_RETRACT_PRODUCT= "(//button[contains(@class, \"product-close-button\")])";
+
+    public void verifyProductDataDisplayedOnPage(String expProductName, String expProductColor, String expProductSize, String expProductPrice, String expProductQuantity) {
+
+    }
+
+    private void verifyProductName(String expProductName) {
+
+    }
+
+    private void verifyProducColor(String expProductColor) {
+
+    }
+
+    private void verifyProductSize(String expProductSize) {
+
+    }
+
+    private void verifyProductPrice(String expProductPrice) {
+
+    }
+
+    private void verifyProductQuantity(String expProductQuantity) {
+
+    }
+
+    private void verifyProductSubtotal(String expProductQuantity, Float expProductPrice) {
+
+    }
+
+
 
     private String getProductName() {
-
-        return null;
+        String productName= page.locator(LBL_PRODUCT_NAME).textContent();
+        return productName;
     }
 
     private String getProductColor() {
-
-        return null;
+        String productColor= page.locator(LBL_PRODUCT_COLOR).textContent();
+        return productColor;
     }
 
     private String getProductSize() {
-
-        return null;
+        String productSize= page.locator(LBL_PRODUCT_SIZE).textContent();
+        return productSize;
     }
 
-    private String getProductPrice() {
-
-        return null;
+    private Float getProductPrice() {
+        String actProductPrice= page.locator(LBL_PRODUCT_PRICE).textContent();
+        String productPrice= commonHandler.removeVndAbbreviation(actProductPrice);
+        return Float.parseFloat(productPrice);
     }
 
     private String getProductQuantity() {
-
-        return null;
+        String productQuantity= page.locator(LBL_PRODUCT_QUANTITY).textContent();
+        return productQuantity;
     }
 
-    private String getProductSubtotal() {
-
-        return null;
+    private Float getProductSubtotal() {
+        String actProductSubtotal= page.locator(LBL_PRODUCT_SUBTOTAL).textContent();
+        String productSubtotal= commonHandler.removeVndAbbreviation(actProductSubtotal);
+        return Float.parseFloat(productSubtotal);
     }
 
-    private String getSummarySubtotal() {
-
-        return null;
+    private Float getSummarySubtotal() {
+        String actSummarySubtotal= page.locator(LBL_SUMMARY_SUBTOTAL).textContent();
+        String summarySubtotal= commonHandler.removeVndAbbreviation(actSummarySubtotal);
+        return Float.parseFloat(summarySubtotal);
     }
 
-    private String getSummaryVAT() {
-
-        return null;
+    private Float getSummaryVAT() {
+        String actSummaryVAT= page.locator(LBL_SUMMARY_VAT).textContent();
+        String summaryVAT= commonHandler.removeVndAbbreviation(actSummaryVAT);
+        return Float.parseFloat(summaryVAT);
     }
 
-    private String getSummaryTotal() {
-
-        return null;
+    private Float getSummaryTotal() {
+        String actSummaryTotal= page.locator(LBL_SUMMARY_TOTAL).textContent();
+        String summaryTotal= commonHandler.removeVndAbbreviation(actSummaryTotal);
+        return Float.parseFloat(summaryTotal);
     }
+
+
 
 
 

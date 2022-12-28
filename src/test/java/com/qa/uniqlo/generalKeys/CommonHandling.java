@@ -213,8 +213,13 @@ public class CommonHandling extends AbstractTest {
 
     @Contract(pure = true)
     public static @NotNull String removeVndAbbreviation(@NotNull String expStr) {
-        String removedStr= expStr.replace(" VND", "");
-        return removedStr;
+        String removedStr;
+        if (expStr.contains(" VND")) {
+            Log.info("REPLACE THE VND ABBREVIATION >>        ");
+            removedStr= expStr.replace(" VND", "");
+            return removedStr;
+        }
+        return "";
     }
 
 
