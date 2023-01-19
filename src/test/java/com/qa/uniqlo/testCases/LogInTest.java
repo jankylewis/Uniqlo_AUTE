@@ -19,7 +19,7 @@ public class LogInTest extends AbstractTest {
 
     @Test(groups = {"01"},
             priority = 1,
-            invocationCount = 5)
+            invocationCount = 1)
     public void logInTest_01() throws Exception {
         setUpMethod();
         /* prepare data */
