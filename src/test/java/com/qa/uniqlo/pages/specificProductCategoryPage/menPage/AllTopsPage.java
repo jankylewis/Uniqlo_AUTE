@@ -4,10 +4,6 @@ import com.microsoft.playwright.Page;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
 import com.qa.uniqlo.utilities.logs.Log;
-import com.microsoft.playwright.Locator;
-import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
-import com.qa.uniqlo.models.data.ProductInformation;
 
 public class AllTopsPage extends BaseProductPage {
 

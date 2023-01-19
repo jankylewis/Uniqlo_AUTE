@@ -1,9 +1,8 @@
 package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
-import org.apache.logging.log4j.core.config.plugins.validation.constraints.NotBlank;
 import org.jetbrains.annotations.Contract;
 import org.jetbrains.annotations.NotNull;
 import org.jetbrains.annotations.Nullable;

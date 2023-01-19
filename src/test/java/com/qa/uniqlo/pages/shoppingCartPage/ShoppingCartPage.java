@@ -1,7 +1,7 @@
 package com.qa.uniqlo.pages.shoppingCartPage;
 
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
 
 public class ShoppingCartPage {
 

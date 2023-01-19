@@ -1,9 +1,8 @@
 package com.qa.uniqlo.factory;
 
-import com.beust.jcommander.JCommander;
 import com.microsoft.playwright.*;
 import com.microsoft.playwright.BrowserType.LaunchOptions;
-import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
 import com.qa.uniqlo.utilities.Utils;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.jetbrains.annotations.Contract;
@@ -91,6 +90,7 @@ public class PlaywrightFactory {
         boolean headlessMode= commonHandler.normalizeBool(properties.getProperty("headful"));
         String baseUrl= commonHandler.normalizeStr(properties.getProperty("baseUrl"));
         Log.info("THE DESIGNATED BROWSER= "+ browserName);
+        // create a new playwright object
         playwright= Playwright.create();
         switch (browserName.toLowerCase()) {
             case "chromium":
@@ -109,7 +109,9 @@ public class PlaywrightFactory {
                 Log.info("PLEASE ENTER A VALID BROWSER NAME >>");
                 break;
         }
+        // create a new browser context
         browserContext= browser.newContext();
+        // create a new page
         page= browserContext.newPage();
         page.navigate(baseUrl);
         return page;

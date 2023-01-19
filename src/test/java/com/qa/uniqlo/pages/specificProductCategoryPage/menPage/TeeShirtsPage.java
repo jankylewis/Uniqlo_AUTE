@@ -1,16 +1,9 @@
 package com.qa.uniqlo.pages.specificProductCategoryPage.menPage;
 
-import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.pages.specificProductCategoryPage.BaseProductPage;
 import com.qa.uniqlo.utilities.logs.Log;
-
-import java.util.List;
-import java.util.concurrent.TimeoutException;
-
-import static com.qa.uniqlo.generalKeys.Constants.*;
 
 public class TeeShirtsPage extends BaseProductPage {
 

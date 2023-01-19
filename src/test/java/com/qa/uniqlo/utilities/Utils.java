@@ -2,7 +2,7 @@ package com.qa.uniqlo.utilities;
 
 import com.microsoft.playwright.BrowserType;
 import com.microsoft.playwright.Playwright;
-import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.jetbrains.annotations.Nullable;
 

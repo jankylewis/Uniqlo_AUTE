@@ -1,18 +1,16 @@
 package com.qa.uniqlo.pages.specificProductCategoryPage;
 
-import com.beust.ah.A;
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.base.AbstractTest;
-import com.qa.uniqlo.generalKeys.CommonHandling;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
 import org.testng.Assert;
 
 import java.util.List;
 
-import static com.qa.uniqlo.generalKeys.Constants.*;
-import static com.qa.uniqlo.generalKeys.Constants.TIMEOUT5000MS;
+import static com.qa.uniqlo.generalKeywords.Constants.*;
+import static com.qa.uniqlo.generalKeywords.Constants.TIMEOUT5000MS;
 
 public class BaseProductPage {
     public void verifyProductPrice(ProductInformation productModel, final String sortingCriterion) {

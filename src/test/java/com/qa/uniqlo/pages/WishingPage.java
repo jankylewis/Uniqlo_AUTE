@@ -2,8 +2,8 @@ package com.qa.uniqlo.pages;
 
 import com.microsoft.playwright.Locator;
 import com.microsoft.playwright.Page;
-import com.qa.uniqlo.generalKeys.CommonHandling;
-import static com.qa.uniqlo.generalKeys.Constants.*;
+import com.qa.uniqlo.generalKeywords.CommonHandling;
+import static com.qa.uniqlo.generalKeywords.Constants.*;
 
 import com.qa.uniqlo.models.data.ProductInformation;
 import com.qa.uniqlo.utilities.logs.Log;
